@@ -1,0 +1,332 @@
+2016-02-24 14:02:54,379 INFO  [AndroMDA] - discovering namespaces -
+2016-02-24 14:02:55,202 INFO  [AndroMDA] found namespace --> 'emf-uml22'
+2016-02-24 14:02:55,203 INFO  [AndroMDA]   +  registering component 'repository'
+2016-02-24 14:02:55,552 INFO  [AndroMDA]   +  registering component 'metafacades'
+2016-02-24 14:02:56,058 INFO  [AndroMDA]   +  registering component 'profile'
+2016-02-24 14:02:56,084 INFO  [AndroMDA] found namespace --> 'hibernate'
+2016-02-24 14:02:56,084 INFO  [AndroMDA]   +  registering component 'cartridge'
+2016-02-24 14:02:56,320 INFO  [AndroMDA]   +  registering component 'metafacades'
+2016-02-24 14:02:56,418 INFO  [AndroMDA]   +  registering component 'profile'
+2016-02-24 14:02:56,461 INFO  [AndroMDA] found namespace --> 'java'
+2016-02-24 14:02:56,461 INFO  [AndroMDA]   +  registering component 'cartridge'
+2016-02-24 14:02:56,511 INFO  [AndroMDA]   +  registering component 'profile'
+2016-02-24 14:02:56,514 INFO  [AndroMDA]   +  registering component 'metafacades'
+2016-02-24 14:02:56,552 INFO  [AndroMDA] found namespace --> 'netBeansMDR'
+2016-02-24 14:02:56,552 INFO  [AndroMDA]   +  registering component 'repository'
+2016-02-24 14:02:56,839 INFO  [AndroMDA] found namespace --> 'spring'
+2016-02-24 14:02:56,839 INFO  [AndroMDA]   +  registering component 'cartridge'
+2016-02-24 14:02:57,226 INFO  [AndroMDA]   +  registering component 'metafacades'
+2016-02-24 14:02:57,355 INFO  [AndroMDA]   +  registering component 'profile'
+2016-02-24 14:02:57,442 INFO  [AndroMDA] found namespace --> 'uml-1.4'
+2016-02-24 14:02:57,442 INFO  [AndroMDA]   +  registering component 'metafacades'
+2016-02-24 14:02:57,777 INFO  [AndroMDA]   +  registering component 'profile'
+2016-02-24 14:02:57,826 INFO  [AndroMDA] found namespace --> 'validation'
+2016-02-24 14:02:57,826 INFO  [AndroMDA]   +  registering component 'translation-library'
+2016-02-24 14:02:58,178 INFO  [AndroMDA] found namespace --> 'webservice'
+2016-02-24 14:02:58,178 INFO  [AndroMDA]   +  registering component 'cartridge'
+2016-02-24 14:02:58,275 INFO  [AndroMDA]   +  registering component 'metafacades'
+2016-02-24 14:02:58,388 INFO  [AndroMDA]   +  registering component 'profile'
+2016-02-24 14:03:03,478 INFO  [AndroMDA] - core initialization complete: 10.008[s] -
+2016-02-24 14:03:03,583 INFO  [AndroMDA] loading model --> 'file:/home/flefevre/git/neomda/basemda/mda/src/main/uml/basemda.uml'
+2016-02-24 14:03:03,613 INFO  [AndroMDA] referenced model --> 'file:/home/flefevre/git/neomda/basemda/mda/src/main/uml/basemda.uml' 
+2016-02-24 14:03:04,154 INFO  [AndroMDA] referenced model --> 'file:/home/flefevre/git/neomda/basemda/mda/src/main/uml/andromda-persistence-3.4.profile.uml' 
+2016-02-24 14:03:05,084 INFO  [AndroMDA] referenced model --> 'jar:file:/home/flefevre/.m2/repository/org/eclipse/uml2/org.eclipse.uml2.uml.resources/3.1.0.v201005031530/org.eclipse.uml2.uml.resources-3.1.0.v201005031530.jar!/profiles/Standard.profile.uml#_yzU58YinEdqtvbnfB2L_5w' 
+2016-02-24 14:03:05,089 INFO  [AndroMDA] referenced model --> 'jar:file:/home/flefevre/.m2/repository/org/eclipse/uml2/org.eclipse.uml2.uml.resources/3.1.0.v201005031530/org.eclipse.uml2.uml.resources-3.1.0.v201005031530.jar!/profiles/Standard.profile.uml#_0' 
+2016-02-24 14:03:05,184 INFO  [AndroMDA] referenced model --> 'jar:file:/home/flefevre/.m2/repository/org/eclipse/uml2/org.eclipse.uml2.uml.resources/3.1.0.v201005031530/org.eclipse.uml2.uml.resources-3.1.0.v201005031530.jar!/profiles/Standard.profile.uml' 
+2016-02-24 14:03:05,506 INFO  [AndroMDA] referenced model --> 'jar:file:/home/flefevre/.m2/repository/org/eclipse/uml2/org.eclipse.uml2.uml.resources/3.1.0.v201005031530/org.eclipse.uml2.uml.resources-3.1.0.v201005031530.jar!/profiles/Ecore.profile.uml#_z1OFcHjqEdy8S4Cr8Rc_NA' 
+2016-02-24 14:03:05,565 INFO  [AndroMDA] referenced model --> 'jar:file:/home/flefevre/.m2/repository/org/eclipse/uml2/org.eclipse.uml2.uml.resources/3.1.0.v201005031530/org.eclipse.uml2.uml.resources-3.1.0.v201005031530.jar!/profiles/Ecore.profile.uml#_0' 
+2016-02-24 14:03:05,634 INFO  [AndroMDA] referenced model --> 'jar:file:/home/flefevre/.m2/repository/org/eclipse/uml2/org.eclipse.uml2.uml.resources/3.1.0.v201005031530/org.eclipse.uml2.uml.resources-3.1.0.v201005031530.jar!/profiles/Ecore.profile.uml' 
+2016-02-24 14:03:06,229 INFO  [AndroMDA] referenced model --> 'file:/home/flefevre/git/neomda/basemda/mda/src/main/uml/andromda-common-3.4.profile.uml' 
+2016-02-24 14:03:06,569 INFO  [AndroMDA] referenced model --> 'file:/home/flefevre/git/neomda/basemda/mda/src/main/uml/andromda-service-3.4.profile.uml' 
+2016-02-24 14:03:06,828 INFO  [AndroMDA] referenced model --> 'file:/home/flefevre/git/neomda/basemda/mda/src/main/uml/andromda-datatype-3.4.uml' 
+2016-02-24 14:03:06,944 WARN  [org.andromda.repositories.emf.uml22.EMXProxyResolvingResourceSet] Could not load referenced model uri 1ms: http://www.eclipse.org/uml2/5.0.0/UML/Profile/Standard#/ null
+2016-02-24 14:03:07,002 INFO  [AndroMDA] referenced model --> 'file:/home/flefevre/git/neomda/basemda/mda/src/main/uml/andromda-presentation-3.4.profile.uml' 
+2016-02-24 14:03:07,467 INFO  [AndroMDA] referenced model --> 'file:/home/flefevre/git/neomda/basemda/mda/src/main/uml/andromda-process-3.4.profile.uml' 
+2016-02-24 14:03:07,654 INFO  [AndroMDA] referenced model --> 'file:/home/flefevre/git/neomda/basemda/mda/src/main/uml/andromda-webservice-3.4.profile.uml' 
+2016-02-24 14:03:07,854 INFO  [AndroMDA] referenced model --> 'file:/home/flefevre/git/neomda/basemda/mda/src/main/uml/andromda-xml-3.4.profile.uml' 
+2016-02-24 14:03:07,897 INFO  [AndroMDA] - loading complete: 4.367[s] -
+2016-02-24 14:03:07,897 INFO  [AndroMDA] - validating model -
+2016-02-24 14:03:13,354 INFO  [AndroMDA] - validation complete: 5.457[s] -
+2016-02-24 14:03:13,727 INFO  [AndroMDA] Processing cartridge spring on model /home/flefevre/git/neomda/basemda/mda/src/main/uml/basemda.uml
+2016-02-24 14:03:13,729 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/spring/SpringServiceLocator.vsl with 1 metafacades from 2 model elements
+2016-02-24 14:03:14,037 INFO  [AndroMDA:spring] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../core/target/src/main/java/org/basemda/ServiceLocator.java'
+2016-02-24 14:03:14,037 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/spring/SpringServiceLocator.vsl with 0 metafacades from 2 model elements
+2016-02-24 14:03:14,037 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/spring/richclient/SpringServerTest.vsl with 0 metafacades from 1 model elements
+2016-02-24 14:03:14,037 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/spring/richclient/ThisBeanFactory.java.vsl with 0 metafacades from 1 model elements
+2016-02-24 14:03:14,038 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/spring/remoting/client/SpringClientServiceLocator.vsl with 0 metafacades from 2 model elements
+2016-02-24 14:03:14,038 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/spring/richclient/SpringClientTest.vsl with 0 metafacades from 1 model elements
+2016-02-24 14:03:14,038 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/spring/SpringClientExceptionHandlingAdvice.vsl with 0 metafacades from 1 model elements
+2016-02-24 14:03:14,039 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/spring/SpringService.vsl with 1 metafacades from 1 model elements
+2016-02-24 14:03:14,135 INFO  [AndroMDA:spring] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../core/target/src/main/java/org/ClassService.java'
+2016-02-24 14:03:14,135 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/spring/SpringService.vsl with 0 metafacades from 1 model elements
+2016-02-24 14:03:14,136 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/spring/SpringWebServiceDelegator.vsl with 0 metafacades from 1 model elements
+2016-02-24 14:03:14,136 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/spring/SpringServiceBase.vsl with 1 metafacades from 1 model elements
+2016-02-24 14:03:14,311 INFO  [AndroMDA:spring] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../core/target/src/main/java/org/ClassServiceBase.java'
+2016-02-24 14:03:14,311 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/spring/SpringServiceBase.vsl with 0 metafacades from 1 model elements
+2016-02-24 14:03:14,311 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/spring/SpringPrincipalStore.java.vsl with 1 metafacades from 2 model elements
+2016-02-24 14:03:14,338 INFO  [AndroMDA:spring] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../core/target/src/main/java/org/basemda/PrincipalStore.java'
+2016-02-24 14:03:14,338 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/spring/SpringPrincipalStore.java.vsl with 0 metafacades from 1 model elements
+2016-02-24 14:03:14,339 WARN  [org.andromda.core.cartridge.Cartridge] Template outlet location 'server' is not defined in namespace spring
+2016-02-24 14:03:14,339 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/spring/SpringServiceImpl.vsl with 1 metafacades from 1 model elements
+2016-02-24 14:03:14,393 INFO  [AndroMDA:spring] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../core/src/main/java/org/ClassServiceImpl.java'
+2016-02-24 14:03:14,393 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/spring/SpringServiceImpl.vsl with 0 metafacades from 1 model elements
+2016-02-24 14:03:14,393 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/spring/DefaultServiceException.vsl with 1 metafacades from 1 model elements
+2016-02-24 14:03:14,402 INFO  [AndroMDA:spring] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../core/target/src/main/java/org/ClassServiceException.java'
+2016-02-24 14:03:14,402 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/spring/DefaultServiceException.vsl with 0 metafacades from 1 model elements
+2016-02-24 14:03:14,448 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/spring/SpringDao.vsl with 1 metafacades from 1 model elements
+2016-02-24 14:03:14,707 INFO  [AndroMDA:spring] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../core/target/src/main/java/org/Class1Dao.java'
+2016-02-24 14:03:14,707 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/spring/hibernate/SpringHibernateDaoBase.vsl with 1 metafacades from 1 model elements
+2016-02-24 14:03:15,378 INFO  [AndroMDA:spring] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../core/target/src/main/java/org/Class1DaoBase.java'
+2016-02-24 14:03:15,379 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/spring/hibernate/SpringHibernateDaoImpl.vsl with 0 metafacades from 1 model elements
+2016-02-24 14:03:15,379 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/spring/hibernate/SpringHibernateDaoImpl.vsl with 1 metafacades from 1 model elements
+2016-02-24 14:03:15,469 INFO  [AndroMDA:spring] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../core/src/main/java/org/Class1DaoImpl.java'
+2016-02-24 14:03:15,470 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/spring/ejb/SpringSessionBean.vsl with 1 metafacades from 1 model elements
+2016-02-24 14:03:15,527 INFO  [AndroMDA:spring] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../core/target/src/main/java/org/ejb/ClassServiceBean.java'
+2016-02-24 14:03:15,528 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/spring/ejb/SpringSessionRemote.vsl with 0 metafacades from 1 model elements
+2016-02-24 14:03:15,528 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/spring/ejb/SpringSessionRemoteHome.vsl with 0 metafacades from 1 model elements
+2016-02-24 14:03:15,528 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/spring/ejb/SpringSessionLocal.vsl with 1 metafacades from 1 model elements
+2016-02-24 14:03:15,568 INFO  [AndroMDA:spring] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../core/target/src/main/java/org/ejb/ClassService.java'
+2016-02-24 14:03:15,569 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/spring/ejb/SpringSessionLocalHome.vsl with 1 metafacades from 1 model elements
+2016-02-24 14:03:15,573 INFO  [AndroMDA:spring] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../core/target/src/main/java/org/ejb/ClassServiceHome.java'
+2016-02-24 14:03:15,573 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/spring/applicationContext.xml.vsl with 2 metafacades from 3 model elements
+2016-02-24 14:03:15,631 INFO  [AndroMDA:spring] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../core/target/src/main/java/applicationContext.xml'
+2016-02-24 14:03:15,631 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/spring/applicationContext-dataSource.xml.vsl with 2 metafacades from 2 model elements
+2016-02-24 14:03:15,671 INFO  [AndroMDA:spring] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../core/target/src/main/java/applicationContext-dataSource.xml'
+2016-02-24 14:03:15,671 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/spring/applicationContext-localDataSource.xml.vsl with 2 metafacades from 2 model elements
+2016-02-24 14:03:15,675 INFO  [AndroMDA:spring] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../core/target/src/main/java/applicationContext-localDataSource.xml'
+2016-02-24 14:03:15,675 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/spring/applicationContext-testDataSource.xml.vsl with 2 metafacades from 2 model elements
+2016-02-24 14:03:15,678 INFO  [AndroMDA:spring] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../core/src/test/resources/applicationContext-testDataSource.xml'
+2016-02-24 14:03:15,678 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/spring/applicationContext-server.xml.vsl with 0 metafacades from 2 model elements
+2016-02-24 14:03:15,678 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/spring/applicationContext-server.xml.vsl with 0 metafacades from 2 model elements
+2016-02-24 14:03:15,678 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/spring/remoting/client/applicationContext-client.xml.vsl with 0 metafacades from 2 model elements
+2016-02-24 14:03:15,678 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/spring/richclient/applicationContext-server-authentication.xml.vsl with 0 metafacades from 1 model elements
+2016-02-24 14:03:15,678 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/spring/hibernate/H2.java.vsl with 1 metafacades from 1 model elements
+2016-02-24 14:03:15,730 INFO  [AndroMDA:spring] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../core/target/src/test/java/org/andromda/dbtest/H2.java'
+2016-02-24 14:03:15,730 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/spring/richclient/ehcache-server-authentication.xml.vsl with 0 metafacades from 1 model elements
+2016-02-24 14:03:15,730 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/spring/richclient/AuthenticationDaoImpl.vsl with 0 metafacades from 1 model elements
+2016-02-24 14:03:15,730 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/spring/richclient/SpringMergeMappings.vsl with 0 metafacades from 1 model elements
+2016-02-24 14:03:15,730 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/spring/remoting/client/applicationContext-client-authentication.xml.vsl with 0 metafacades from 1 model elements
+2016-02-24 14:03:15,730 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/spring/remoting/client/applicationContext-client.properties.vsl with 0 metafacades from 1 model elements
+2016-02-24 14:03:15,731 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/spring/osgi/applicationContext-osgi-export.xml.vsl with 1 metafacades from 1 model elements
+2016-02-24 14:03:15,781 WARN  [org.andromda.core.cartridge.Cartridge] Template outlet location 'osgi' is not defined in namespace spring
+2016-02-24 14:03:15,781 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/spring/osgi/applicationContext-osgi-import.xml.vsl with 1 metafacades from 1 model elements
+2016-02-24 14:03:15,784 WARN  [org.andromda.core.cartridge.Cartridge] Template outlet location 'osgi' is not defined in namespace spring
+2016-02-24 14:03:15,784 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/spring/richclient/web.xml.vsl with 0 metafacades from 4 model elements
+2016-02-24 14:03:15,784 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/spring/ejb/applicationContext-remoteEjb.xml.vsl with 1 metafacades from 1 model elements
+2016-02-24 14:03:15,787 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/spring/ejb/applicationContext-localEjb.xml.vsl with 1 metafacades from 1 model elements
+2016-02-24 14:03:15,789 INFO  [AndroMDA:spring] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../core/target/src/main/java/applicationContext-localEjb.xml'
+2016-02-24 14:03:15,819 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/spring/ejb/ejb-jar.xml.vsl with 1 metafacades from 1 model elements
+2016-02-24 14:03:15,825 INFO  [AndroMDA:spring] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../core/target/src/main/java/META-INF/ejb-jar.xml'
+2016-02-24 14:03:15,826 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/spring/ejb/ejb-jar.xml.vsl with 0 metafacades from 1 model elements
+2016-02-24 14:03:15,826 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/spring/ejb/jboss.xml.vsl with 1 metafacades from 1 model elements
+2016-02-24 14:03:15,829 INFO  [AndroMDA:spring] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../core/target/src/main/java/META-INF/jboss.xml'
+2016-02-24 14:03:15,829 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/spring/ejb/jboss.xml.vsl with 0 metafacades from 1 model elements
+2016-02-24 14:03:15,829 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/spring/beanRefFactory.xml.vsl with 2 metafacades from 4 model elements
+2016-02-24 14:03:15,873 INFO  [AndroMDA:spring] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../core/target/src/main/java/beanRefFactory.xml'
+2016-02-24 14:03:15,873 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/spring/richclient/serverTestBeanRefFactory.xml.vsl with 0 metafacades from 3 model elements
+2016-02-24 14:03:15,873 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/spring/richclient/serverTestBeanRefFactory.properties.vsl with 0 metafacades from 1 model elements
+2016-02-24 14:03:15,873 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/spring/hibernate/search/SearchParameter.java.vsl with 1 metafacades from 1 model elements
+2016-02-24 14:03:15,917 INFO  [AndroMDA:spring] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../core/target/src/main/java/org/basemda/SearchParameter.java'
+2016-02-24 14:03:15,917 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/spring/hibernate/search/Search.java.vsl with 1 metafacades from 1 model elements
+2016-02-24 14:03:15,961 INFO  [AndroMDA:spring] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../core/target/src/main/java/org/basemda/Search.java'
+2016-02-24 14:03:15,961 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/spring/hibernate/search/PropertySearch.java.vsl with 1 metafacades from 1 model elements
+2016-02-24 14:03:16,043 INFO  [AndroMDA:spring] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../core/target/src/main/java/org/basemda/PropertySearch.java'
+2016-02-24 14:03:16,048 INFO  [AndroMDA:spring] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../core/target/src/main/java/org/andromda/spring/PaginationResult.java'
+2016-02-24 14:03:16,049 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/spring/hibernate/HibernateSearch.vsl with 1 metafacades from 1 model elements
+2016-02-24 14:03:16,268 INFO  [AndroMDA:spring] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../core/target/src/main/java/org/basemda/CriteriaSearch.java'
+2016-02-24 14:03:16,269 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/spring/hibernate/HibernateSearchProperties.vsl with 1 metafacades from 1 model elements
+2016-02-24 14:03:16,298 INFO  [AndroMDA:spring] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../core/target/src/main/java/org/basemda/CriteriaSearchProperties.java'
+2016-02-24 14:03:16,298 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/spring/hibernate/HibernateSearchConfiguration.vsl with 1 metafacades from 1 model elements
+2016-02-24 14:03:16,364 INFO  [AndroMDA:spring] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../core/target/src/main/java/org/basemda/CriteriaSearchConfiguration.java'
+2016-02-24 14:03:16,364 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/spring/hibernate/HibernateSearchParameter.vsl with 1 metafacades from 1 model elements
+2016-02-24 14:03:16,401 INFO  [AndroMDA:spring] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../core/target/src/main/java/org/basemda/CriteriaSearchParameter.java'
+2016-02-24 14:03:16,401 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/spring/hibernate/SearchCriteria.vsl with 0 metafacades from 1 model elements
+2016-02-24 14:03:16,401 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/spring/presentation/hibernate/OpenSessionInViewFilter.java.vsl with 1 metafacades from 1 model elements
+2016-02-24 14:03:16,404 WARN  [org.andromda.core.cartridge.Cartridge] Template outlet location 'open-session-in-view' is not defined in namespace spring
+2016-02-24 14:03:16,431 INFO  [AndroMDA:spring] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../core/target/src/main/java/org/basemda/BeanLocator.java'
+2016-02-24 14:03:16,434 WARN  [org.andromda.core.cartridge.Cartridge] Template outlet location 'remoting-war-support' is not defined in namespace spring
+2016-02-24 14:03:16,435 WARN  [org.andromda.core.cartridge.Cartridge] Template outlet location 'remoting-war-support' is not defined in namespace spring
+2016-02-24 14:03:16,435 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/spring/remoting/SpringRemotingWarMergeMappings.xml.vsl with 0 metafacades from 1 model elements
+2016-02-24 14:03:16,437 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/spring/remoting/client/AuthenticatingHttpInvokerRequestExecutor.java.vsl with 0 metafacades from 1 model elements
+2016-02-24 14:03:16,437 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/spring/jms/applicationContext-jms.xml.vsl with 0 metafacades from 4 model elements
+2016-02-24 14:03:16,437 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/spring/jms/MessageListener.java.vsl with 0 metafacades from 1 model elements
+2016-02-24 14:03:16,437 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/spring/crud/applicationContext-manageable.xml.vsl with 0 metafacades from 1 model elements
+2016-02-24 14:03:16,437 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/spring/crud/SpringCrudServiceLocator.vsl with 0 metafacades from 1 model elements
+2016-02-24 14:03:16,437 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/spring/crud/SpringCrudService.vsl with 0 metafacades from 1 model elements
+2016-02-24 14:03:16,438 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/spring/crud/SpringCrudServiceBase.vsl with 0 metafacades from 1 model elements
+2016-02-24 14:03:16,438 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/spring/crud/SpringCrudDao.vsl with 0 metafacades from 1 model elements
+2016-02-24 14:03:16,438 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/spring/crud/SpringCrudDaoBase.vsl with 0 metafacades from 1 model elements
+2016-02-24 14:03:16,438 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/spring/crud/SpringCrudValueObject.vsl with 0 metafacades from 1 model elements
+2016-02-24 14:03:16,551 INFO  [AndroMDA] Processing cartridge hibernate on model /home/flefevre/git/neomda/basemda/mda/src/main/uml/basemda.uml
+2016-02-24 14:03:16,551 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/hibernate/HibernateEntity.vsl with 1 metafacades from 1 model elements
+2016-02-24 14:03:16,725 INFO  [AndroMDA:hibernate] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../core/target/src/main/java/org/Class1.java'
+2016-02-24 14:03:16,725 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/hibernate/HibernateEntityImpl.vsl with 0 metafacades from 1 model elements
+2016-02-24 14:03:16,725 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/hibernate/HibernateEntityImpl.vsl with 1 metafacades from 1 model elements
+2016-02-24 14:03:16,755 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/hibernate/HibernateEntityPK.vsl with 0 metafacades from 1 model elements
+2016-02-24 14:03:16,755 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/hibernate/HibernateEmbeddedValue.vsl with 0 metafacades from 1 model elements
+2016-02-24 14:03:16,755 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/hibernate/HibernateEmbeddedValueImpl.vsl with 0 metafacades from 1 model elements
+2016-02-24 14:03:16,762 INFO  [AndroMDA:hibernate] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../core/target/src/main/java/org/andromda/persistence/hibernate/usertypes/HibernateByteBlobType.java'
+2016-02-24 14:03:16,816 INFO  [AndroMDA:hibernate] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../core/target/src/main/java/org/andromda/persistence/hibernate/usertypes/HibernateStringClobType.java'
+2016-02-24 14:03:16,816 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/hibernate/ejb/ejb-jar.xml.vsl with 1 metafacades from 1 model elements
+2016-02-24 14:03:16,851 WARN  [org.andromda.core.cartridge.Cartridge] Template outlet location 'session-beans' is not defined in namespace hibernate
+2016-02-24 14:03:16,851 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/hibernate/ejb/jboss.xml.vsl with 1 metafacades from 1 model elements
+2016-02-24 14:03:16,853 WARN  [org.andromda.core.cartridge.Cartridge] Template outlet location 'session-beans' is not defined in namespace hibernate
+2016-02-24 14:03:16,853 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/hibernate/ejb/HibernateSessionEJBLocator.vsl with 1 metafacades from 1 model elements
+2016-02-24 14:03:16,854 WARN  [org.andromda.core.cartridge.Cartridge] Template outlet location 'session-beans' is not defined in namespace hibernate
+2016-02-24 14:03:16,854 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/hibernate/ejb/HibernateSessionBean.vsl with 1 metafacades from 1 model elements
+2016-02-24 14:03:16,889 WARN  [org.andromda.core.cartridge.Cartridge] Template outlet location 'session-beans' is not defined in namespace hibernate
+2016-02-24 14:03:16,889 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/hibernate/ejb/HibernateSessionBeanImpl.vsl with 1 metafacades from 1 model elements
+2016-02-24 14:03:16,892 WARN  [org.andromda.core.cartridge.Cartridge] Template outlet location 'session-impls' is not defined in namespace hibernate
+2016-02-24 14:03:16,892 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/hibernate/ejb/HibernateSession.vsl with 1 metafacades from 1 model elements
+2016-02-24 14:03:16,894 WARN  [org.andromda.core.cartridge.Cartridge] Template outlet location 'session-beans' is not defined in namespace hibernate
+2016-02-24 14:03:16,894 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/hibernate/ejb/HibernateSessionHome.vsl with 1 metafacades from 1 model elements
+2016-02-24 14:03:16,896 WARN  [org.andromda.core.cartridge.Cartridge] Template outlet location 'session-beans' is not defined in namespace hibernate
+2016-02-24 14:03:16,938 WARN  [org.andromda.core.cartridge.Cartridge] Template outlet location 'session-beans' is not defined in namespace hibernate
+2016-02-24 14:03:16,938 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/hibernate/ehcache.xml.vsl with 1 metafacades from 1 model elements
+2016-02-24 14:03:16,940 INFO  [AndroMDA:hibernate] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../core/target/src/main/java/ehcache.xml'
+2016-02-24 14:03:16,940 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/hibernate3/ejb/HibernateEntityFactory.vsl with 1 metafacades from 1 model elements
+2016-02-24 14:03:16,946 WARN  [org.andromda.core.cartridge.Cartridge] Template outlet location 'session-beans' is not defined in namespace hibernate
+2016-02-24 14:03:16,946 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/hibernate/persistence.xml.vsl with 1 metafacades from 1 model elements
+2016-02-24 14:03:16,988 WARN  [org.andromda.core.cartridge.Cartridge] Template outlet location 'configuration' is not defined in namespace hibernate
+2016-02-24 14:03:16,988 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/hibernate3/hibernate.cfg.xml.vsl with 1 metafacades from 1 model elements
+2016-02-24 14:03:16,991 WARN  [org.andromda.core.cartridge.Cartridge] Template outlet location 'configuration' is not defined in namespace hibernate
+2016-02-24 14:03:16,991 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/hibernate/test/persistence-test.xml.vsl with 1 metafacades from 1 model elements
+2016-02-24 14:03:16,993 WARN  [org.andromda.core.cartridge.Cartridge] Template outlet location 'test-configuration' is not defined in namespace hibernate
+2016-02-24 14:03:16,993 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/hibernate/test/hibernate-test.cfg.xml.vsl with 1 metafacades from 1 model elements
+2016-02-24 14:03:16,994 WARN  [org.andromda.core.cartridge.Cartridge] Template outlet location 'test-configuration' is not defined in namespace hibernate
+2016-02-24 14:03:16,994 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/hibernate3/hibernate.hbm.xml.vsl with 1 metafacades from 1 model elements
+2016-02-24 14:03:17,070 INFO  [AndroMDA:hibernate] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../core/target/src/main/java/org/Class1.hbm.xml'
+2016-02-24 14:03:17,070 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/hibernate3/HibernateEnumeration.vsl with 0 metafacades from 1 model elements
+2016-02-24 14:03:17,070 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/hibernate3/usertypes/HibernateEnumType.vsl with 0 metafacades from 1 model elements
+2016-02-24 14:03:17,070 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/hibernate2/ejb/HibernateEntityFactory.vsl with 0 metafacades from 1 model elements
+2016-02-24 14:03:17,070 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/hibernate2/hibernate.cfg.xml.vsl with 0 metafacades from 1 model elements
+2016-02-24 14:03:17,071 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/hibernate2/hibernate.hbm.xml.vsl with 0 metafacades from 1 model elements
+2016-02-24 14:03:17,071 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/hibernate2/HibernateEnumeration.vsl with 0 metafacades from 1 model elements
+2016-02-24 14:03:17,105 INFO  [AndroMDA] Processing cartridge webservice on model /home/flefevre/git/neomda/basemda/mda/src/main/uml/basemda.uml
+2016-02-24 14:03:17,168 INFO  [AndroMDA:webservice] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../webservice/src/main/webapp/axis2-web/ActivateService.jsp'
+2016-02-24 14:03:17,169 INFO  [AndroMDA:webservice] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../webservice/src/main/webapp/axis2-web/admin.jsp'
+2016-02-24 14:03:17,170 INFO  [AndroMDA:webservice] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../webservice/src/main/webapp/axis2-web/css/axis-style.css'
+2016-02-24 14:03:17,170 INFO  [AndroMDA:webservice] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../webservice/src/main/webapp/axis2-web/disengage.jsp'
+2016-02-24 14:03:17,171 INFO  [AndroMDA:webservice] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../webservice/src/main/webapp/axis2-web/EngageToServiceGroup.jsp'
+2016-02-24 14:03:17,172 INFO  [AndroMDA:webservice] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../webservice/src/main/webapp/axis2-web/engagingglobally.jsp'
+2016-02-24 14:03:17,173 INFO  [AndroMDA:webservice] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../webservice/src/main/webapp/axis2-web/engagingtoanoperation.jsp'
+2016-02-24 14:03:17,173 INFO  [AndroMDA:webservice] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../webservice/src/main/webapp/axis2-web/engagingtoaservice.jsp'
+2016-02-24 14:03:17,174 INFO  [AndroMDA:webservice] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../webservice/src/main/webapp/axis2-web/Error/AuthError.html'
+2016-02-24 14:03:17,175 INFO  [AndroMDA:webservice] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../webservice/src/main/webapp/axis2-web/Error/error404.jsp'
+2016-02-24 14:03:17,176 INFO  [AndroMDA:webservice] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../webservice/src/main/webapp/axis2-web/Error/error500.jsp'
+2016-02-24 14:03:17,176 INFO  [AndroMDA:webservice] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../webservice/src/main/webapp/axis2-web/Error/GenError.html'
+2016-02-24 14:03:17,205 INFO  [AndroMDA:webservice] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../webservice/src/main/webapp/axis2-web/error.jsp'
+2016-02-24 14:03:17,206 INFO  [AndroMDA:webservice] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../webservice/src/main/webapp/axis2-web/errorModule.jsp'
+2016-02-24 14:03:17,207 INFO  [AndroMDA:webservice] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../webservice/src/main/webapp/axis2-web/globalModules.jsp'
+2016-02-24 14:03:17,208 INFO  [AndroMDA:webservice] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../webservice/src/main/webapp/axis2-web/HappyAxis.jsp'
+2016-02-24 14:03:17,209 INFO  [AndroMDA:webservice] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../webservice/src/main/webapp/axis2-web/images/asf-logo.gif'
+2016-02-24 14:03:17,210 INFO  [AndroMDA:webservice] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../webservice/src/main/webapp/axis2-web/images/axis.gif'
+2016-02-24 14:03:17,211 INFO  [AndroMDA:webservice] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../webservice/src/main/webapp/axis2-web/images/axis.jpg'
+2016-02-24 14:03:17,211 INFO  [AndroMDA:webservice] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../webservice/src/main/webapp/axis2-web/images/axis_l.jpg'
+2016-02-24 14:03:17,212 INFO  [AndroMDA:webservice] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../webservice/src/main/webapp/axis2-web/InActivateService.jsp'
+2016-02-24 14:03:17,213 INFO  [AndroMDA:webservice] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../webservice/src/main/webapp/axis2-web/include/adminfooter.inc'
+2016-02-24 14:03:17,214 INFO  [AndroMDA:webservice] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../webservice/src/main/webapp/axis2-web/include/adminheader.inc'
+2016-02-24 14:03:17,214 INFO  [AndroMDA:webservice] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../webservice/src/main/webapp/axis2-web/include/adminheader.jsp'
+2016-02-24 14:03:17,247 INFO  [AndroMDA:webservice] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../webservice/src/main/webapp/axis2-web/include/footer.inc'
+2016-02-24 14:03:17,248 INFO  [AndroMDA:webservice] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../webservice/src/main/webapp/axis2-web/include/header.inc'
+2016-02-24 14:03:17,249 INFO  [AndroMDA:webservice] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../webservice/src/main/webapp/axis2-web/include/httpbase.jsp'
+2016-02-24 14:03:17,250 INFO  [AndroMDA:webservice] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../webservice/src/main/webapp/axis2-web/include/link-footer.inc'
+2016-02-24 14:03:17,250 INFO  [AndroMDA:webservice] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../webservice/src/main/webapp/axis2-web/include/link-footer.jsp'
+2016-02-24 14:03:17,251 INFO  [AndroMDA:webservice] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../webservice/src/main/webapp/axis2-web/index.jsp'
+2016-02-24 14:03:17,252 INFO  [AndroMDA:webservice] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../webservice/src/main/webapp/axis2-web/LeftFrame.jsp'
+2016-02-24 14:03:17,252 INFO  [AndroMDA:webservice] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../webservice/src/main/webapp/axis2-web/listFaultyService.jsp'
+2016-02-24 14:03:17,253 INFO  [AndroMDA:webservice] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../webservice/src/main/webapp/axis2-web/listGroupService.jsp'
+2016-02-24 14:03:17,254 INFO  [AndroMDA:webservice] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../webservice/src/main/webapp/axis2-web/listModules.jsp'
+2016-02-24 14:03:17,255 INFO  [AndroMDA:webservice] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../webservice/src/main/webapp/axis2-web/listService.jsp'
+2016-02-24 14:03:17,255 INFO  [AndroMDA:webservice] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../webservice/src/main/webapp/axis2-web/ListServiceGroup.jsp'
+2016-02-24 14:03:17,256 INFO  [AndroMDA:webservice] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../webservice/src/main/webapp/axis2-web/listServices.jsp'
+2016-02-24 14:03:17,292 INFO  [AndroMDA:webservice] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../webservice/src/main/webapp/axis2-web/listSingleService.jsp'
+2016-02-24 14:03:17,293 INFO  [AndroMDA:webservice] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../webservice/src/main/webapp/axis2-web/Login.jsp'
+2016-02-24 14:03:17,293 INFO  [AndroMDA:webservice] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../webservice/src/main/webapp/axis2-web/MainFrame.jsp'
+2016-02-24 14:03:17,294 INFO  [AndroMDA:webservice] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../webservice/src/main/webapp/axis2-web/scripts/build.xml'
+2016-02-24 14:03:17,295 INFO  [AndroMDA:webservice] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../webservice/src/main/webapp/axis2-web/SelectService.jsp'
+2016-02-24 14:03:17,296 INFO  [AndroMDA:webservice] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../webservice/src/main/webapp/axis2-web/ServiceParaEdit.jsp'
+2016-02-24 14:03:17,297 INFO  [AndroMDA:webservice] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../webservice/src/main/webapp/axis2-web/TopFrame.jsp'
+2016-02-24 14:03:17,297 INFO  [AndroMDA:webservice] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../webservice/src/main/webapp/axis2-web/upload.jsp'
+2016-02-24 14:03:17,298 INFO  [AndroMDA:webservice] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../webservice/src/main/webapp/axis2-web/ViewContexts.jsp'
+2016-02-24 14:03:17,299 INFO  [AndroMDA:webservice] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../webservice/src/main/webapp/axis2-web/ViewGlobalHandlers.jsp'
+2016-02-24 14:03:17,300 INFO  [AndroMDA:webservice] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../webservice/src/main/webapp/axis2-web/viewphases.jsp'
+2016-02-24 14:03:17,300 INFO  [AndroMDA:webservice] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../webservice/src/main/webapp/axis2-web/viewServiceContext.jsp'
+2016-02-24 14:03:17,301 INFO  [AndroMDA:webservice] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../webservice/src/main/webapp/axis2-web/viewServiceGroupContext.jsp'
+2016-02-24 14:03:17,354 INFO  [AndroMDA:webservice] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../webservice/src/main/webapp/axis2-web/ViewServiceHandlers.jsp'
+2016-02-24 14:03:17,357 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/webservice/jaxws/jaxws-package-xsd.vsl with 0 metafacades from 1 model elements
+2016-02-24 14:03:17,357 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/webservice/jaxws/jaxws-package-xsd.vsl with 0 metafacades from 1 model elements
+2016-02-24 14:03:17,357 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/webservice/jaxws/package-info.java.vsl with 0 metafacades from 1 model elements
+2016-02-24 14:03:17,357 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/webservice/configuration/web.xml.vsl with 0 metafacades from 1 model elements
+2016-02-24 14:03:17,359 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/webservice/configuration/web.xml.vsl with 0 metafacades from 1 model elements
+2016-02-24 14:03:17,360 INFO  [AndroMDA:webservice] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../webservice/src/main/webapp/WEB-INF/ref/web.xml.ref'
+2016-02-24 14:03:17,361 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/webservice/cxf/jaxb_bindings.xml.vsl with 0 metafacades from 1 model elements
+2016-02-24 14:03:17,361 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/webservice/cxf/jaxb_bindings.xml.vsl with 0 metafacades from 1 model elements
+2016-02-24 14:03:17,361 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/webservice/cxf/buildWS.xml.vsl with 0 metafacades from 1 model elements
+2016-02-24 14:03:17,402 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/webservice/cxf/buildWS.xml.vsl with 0 metafacades from 1 model elements
+2016-02-24 14:03:17,403 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/webservice/jaxws/jaxws-wsdl.vsl with 0 metafacades from 1 model elements
+2016-02-24 14:03:17,403 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/webservice/jaxws/jaxws-wsdl.vsl with 0 metafacades from 1 model elements
+2016-02-24 14:03:17,403 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/webservice/jaxws/package-info.java.vsl with 1 metafacades from 1 model elements
+2016-02-24 14:03:17,405 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/webservice/jaxws/WebServiceInterface.java.vsl with 0 metafacades from 1 model elements
+2016-02-24 14:03:17,406 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/webservice/jaxws/WebServiceEndpoint.java.vsl with 0 metafacades from 1 model elements
+2016-02-24 14:03:17,406 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/webservice/jaxws/WebServiceDelegate.java.vsl with 0 metafacades from 1 model elements
+2016-02-24 14:03:17,406 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/webservice/jaxws/WebServiceDelegate.java.vsl with 0 metafacades from 1 model elements
+2016-02-24 14:03:17,406 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/webservice/jaxws/WebServiceSEIImplTest.java.vsl with 0 metafacades from 1 model elements
+2016-02-24 14:03:17,406 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/webservice/jaxws/WebServiceSEIImplTest.java.vsl with 0 metafacades from 1 model elements
+2016-02-24 14:03:17,406 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/webservice/jaxws/MethodResponse.java.vsl with 0 metafacades from 1 model elements
+2016-02-24 14:03:17,406 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/webservice/jaxws/MethodRequest.java.vsl with 0 metafacades from 1 model elements
+2016-02-24 14:03:17,406 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/webservice/jaxws/WebServiceMethodImpl.java.vsl with 0 metafacades from 1 model elements
+2016-02-24 14:03:17,406 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/webservice/jaxws/WebServiceMethodImpl.java.vsl with 0 metafacades from 1 model elements
+2016-02-24 14:03:17,407 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/webservice/cxf/WSClient.java.vsl with 0 metafacades from 1 model elements
+2016-02-24 14:03:17,407 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/webservice/cxf/WSClient.java.vsl with 0 metafacades from 1 model elements
+2016-02-24 14:03:17,407 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/webservice/jaxws/WebServiceClient.java.vsl with 0 metafacades from 1 model elements
+2016-02-24 14:03:17,407 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/webservice/jaxws/WebServiceClient.java.vsl with 0 metafacades from 1 model elements
+2016-02-24 14:03:17,407 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/webservice/jaxws/JettyServer.java.vsl with 0 metafacades from 1 model elements
+2016-02-24 14:03:17,408 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/webservice/jaxws/JettyServer.java.vsl with 0 metafacades from 1 model elements
+2016-02-24 14:03:17,409 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/webservice/cxf/WSClient.java.vsl with 0 metafacades from 1 model elements
+2016-02-24 14:03:17,409 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/webservice/cxf/CXFTestClient.java.vsl with 0 metafacades from 1 model elements
+2016-02-24 14:03:17,409 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/webservice/cxf/CXFTestClient.java.vsl with 0 metafacades from 1 model elements
+2016-02-24 14:03:17,409 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/webservice/jaxws/index.html.vsl with 0 metafacades from 1 model elements
+2016-02-24 14:03:17,437 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/webservice/jaxws/index.html.vsl with 0 metafacades from 1 model elements
+2016-02-24 14:03:17,438 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/webservice/cxf/applicationContext-CXF.xml.vsl with 0 metafacades from 1 model elements
+2016-02-24 14:03:17,440 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/webservice/cxf/applicationContext-CXF.xml.vsl with 0 metafacades from 1 model elements
+2016-02-24 14:03:17,440 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/webservice/cxf/cxf-client.xml.vsl with 0 metafacades from 1 model elements
+2016-02-24 14:03:17,441 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/webservice/cxf/cxf-client.xml.vsl with 0 metafacades from 1 model elements
+2016-02-24 14:03:17,442 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/webservice/wsdl/wrapped-wsdl.vsl with 0 metafacades from 1 model elements
+2016-02-24 14:03:17,442 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/webservice/xfire/services.xml.vsl with 0 metafacades from 1 model elements
+2016-02-24 14:03:17,442 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/webservice/wsdl/wrapped-wsdl.vsl with 0 metafacades from 1 model elements
+2016-02-24 14:03:17,442 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/webservice/axis2/axis2.xml.vsl with 0 metafacades from 1 model elements
+2016-02-24 14:03:17,444 INFO  [AndroMDA:webservice] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../webservice/src/main/webapp/WEB-INF/conf/axis2.xml'
+2016-02-24 14:03:17,448 INFO  [AndroMDA:webservice] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../core/target/src/main/java/org/basemda/TypeMappings.java'
+2016-02-24 14:03:17,528 INFO  [AndroMDA:webservice] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../core/target/src/main/java/org/basemda/WrappedMessageReceiver.java'
+2016-02-24 14:03:17,529 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/webservice/axis2/services.xml.vsl with 0 metafacades from 1 model elements
+2016-02-24 14:03:17,529 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/webservice/wsdl/wrapped-wsdl.vsl with 0 metafacades from 1 model elements
+2016-02-24 14:03:17,529 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/webservice/axis1/server-config.wsdd.vsl with 0 metafacades from 1 model elements
+2016-02-24 14:03:17,529 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/webservice/axis1/wss4j/crypto.properties.vsl with 0 metafacades from 1 model elements
+2016-02-24 14:03:17,529 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/webservice/axis1/WebServiceTest.java.vsl with 0 metafacades from 1 model elements
+2016-02-24 14:03:17,529 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/webservice/axis1/WebServiceTestServiceLocator.java.vsl with 0 metafacades from 1 model elements
+2016-02-24 14:03:17,529 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/webservice/axis1/WebServiceTestImpl.java.vsl with 0 metafacades from 1 model elements
+2016-02-24 14:03:17,529 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/webservice/axis1/WebServiceTestImpl.java.vsl with 0 metafacades from 1 model elements
+2016-02-24 14:03:17,578 INFO  [AndroMDA:webservice] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../core/target/src/main/java/org/basemda/AttachmentHandler.java'
+2016-02-24 14:03:17,580 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/webservice/jaxws/WebServiceEndpoint.java.vsl with 0 metafacades from 1 model elements
+2016-02-24 14:03:17,580 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/webservice/jaxws/WebServiceInterface.java.vsl with 0 metafacades from 1 model elements
+2016-02-24 14:03:17,580 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/webservice/jaxws/WebServiceDelegate.java.vsl with 0 metafacades from 1 model elements
+2016-02-24 14:03:17,580 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/webservice/jaxws/WebServiceDelegate.java.vsl with 0 metafacades from 1 model elements
+2016-02-24 14:03:17,580 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/webservice/configuration/sun-jaxws.xml.vsl with 0 metafacades from 1 model elements
+2016-02-24 14:03:17,581 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/webservice/jaxws/jaxws-wsdl.vsl with 0 metafacades from 1 model elements
+2016-02-24 14:03:17,581 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/webservice/jaxws/jaxws-xsd.vsl with 0 metafacades from 1 model elements
+2016-02-24 14:03:17,615 INFO  [AndroMDA] Processing cartridge java on model /home/flefevre/git/neomda/basemda/mda/src/main/uml/basemda.uml
+2016-02-24 14:03:17,615 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/java/Service.vsl with 1 metafacades from 1 model elements
+2016-02-24 14:03:17,622 INFO  [AndroMDA:java] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../core/target/src/main/java/org/ClassService.java'
+2016-02-24 14:03:17,622 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/java/ServiceImpl.vsl with 1 metafacades from 1 model elements
+2016-02-24 14:03:17,665 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/java/ServiceImpl.vsl with 1 metafacades from 1 model elements
+2016-02-24 14:03:17,695 INFO  [AndroMDA:java] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../core/src/main/java/org/ClassServiceImpl.java.ref'
+2016-02-24 14:03:17,695 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/java/ValueObject.vsl with 1 metafacades from 1 model elements
+2016-02-24 14:03:17,768 INFO  [AndroMDA:java] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../common/target/src/main/java/org/Class1VO.java'
+2016-02-24 14:03:17,768 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/java/ApplicationException.vsl with 0 metafacades from 2 model elements
+2016-02-24 14:03:17,768 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/java/UnexpectedException.vsl with 0 metafacades from 1 model elements
+2016-02-24 14:03:17,769 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/java/Enumeration.vsl with 0 metafacades from 1 model elements
+2016-02-24 14:03:17,769 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/java/TypeSafeEnumeration.vsl with 0 metafacades from 1 model elements
+2016-02-24 14:03:17,769 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/java/Interface.vsl with 0 metafacades from 1 model elements
+2016-02-24 14:03:17,769 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/java/InterfaceImpl.vsl with 0 metafacades from 1 model elements
+2016-02-24 14:03:17,770 INFO  [AndroMDA] completed model processing --> TIME: 14.292[s], RESOURCES WRITTEN: 130

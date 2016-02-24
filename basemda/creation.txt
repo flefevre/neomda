@@ -1,0 +1,657 @@
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective settings
+[WARNING] Unrecognised tag: 'repositories' (position: START_TAG seen <settings>\n<repositories>... @2:15)  @ /home/flefevre/.m2/settings.xml, line 2, column 15
+[WARNING] 
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Maven Stub Project (No POM) 1
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- andromdapp-maven-plugin:3.4:generate (default-cli) @ standalone-pom ---
+INFO  [AndroMDA] discovered andromdapp type --> 'j2ee'
+INFO  [AndroMDA] discovered andromdapp type --> 'richclient'
+
+Please choose the type of application to generate [j2ee, richclient]
+j2ee
+
+Please enter the parent directory of your new application directory (i.e. C:/Workspaces): 
+/home/flefevre/git/neomda
+
+Please enter your first and last name (i.e. Chad Brandon): 
+Francois Le Fevre
+
+Which kind of modeling tool will you use?
+(uml1.4 or uml2 for .xml.zip/.xml/.xmi/.zargo files,
+emf-uml22 for .uml files, rsm7 for .emx files) [uml1.4, uml2, emf-uml22, rsm7]: 
+uml2
+
+Please enter the name (maven project description) of your J2EE project (i.e. Animal Quiz): 
+BaseMda
+
+Please enter an id (maven artifactId) for your J2EE project (i.e. animalquiz): 
+basemda
+
+Please enter a version for your project (i.e. 1.0-SNAPSHOT): 
+0.1-SNASPHOT
+
+Please enter the root package name (maven groupId) for your J2EE project (i.e. org.andromda.samples.animalquiz): 
+org.basemda
+
+Would you like an EAR or standalone WAR? [ear, war]: 
+ear
+
+Please enter the type of transactional/persistence cartridge to use (enter 'none' if you don't want to use one) [hibernate, ejb, ejb3, spring, none]: 
+spring
+
+Please enter the programming language to be used in service and dao implementations [java, groovy]: 
+java
+
+Please enter the database backend for the persistence layer [h2, hypersonic, mysql, oracle, db2, informix, mssql, pointbase, postgres, sybase, sabdb, progress, derby, javadb]: 
+h2
+
+Will your project need workflow engine capabilities? (it uses jBPM and Hibernate3)? [yes, no]: 
+no
+
+Will your project have a web user interface? [yes, no]: 
+no
+
+Would you like to be able to expose your services as web services? [yes, no]: 
+yes
+
+Would you like to use Axis, XFire, CXF, or Sun's Jax-WS as your SOAP Stack? [axis, xfire, cxf, jaxws]: 
+axis
+
+Would you like to use Axis 1.x or Axis 2.x (enter '1' for 1.x or '2' for 2.x)? [1, 2]: 
+2
+-------------------------------------------------------------------------------------
+    G e n e r a t i n g   A n d r o M D A   P o w e r e d   A p p l i c a t i o n
+-------------------------------------------------------------------------------------
+    Output: 'file:/home/flefevre/git/neomda/basemda/app/pom.xml'
+    Output: 'file:/home/flefevre/git/neomda/basemda/app/src/main/config/basemda-ds.xml'
+    Output: 'file:/home/flefevre/git/neomda/basemda/common/pom.xml'
+    Output: 'file:/home/flefevre/git/neomda/basemda/core/target/classes/META-INF/ejb-jar.xml'
+    Output: 'file:/home/flefevre/git/neomda/basemda/core/pom.xml'
+    Output: 'file:/home/flefevre/git/neomda/basemda/m2eclipse.bat'
+    Output: 'file:/home/flefevre/git/neomda/basemda/mda/.project'
+    Output: 'file:/home/flefevre/git/neomda/basemda/mda/build.properties'
+    Output: 'file:/home/flefevre/git/neomda/basemda/mda/build.xml'
+    Output: 'file:/home/flefevre/git/neomda/basemda/mda/log4j.xml'
+    Output: 'file:/home/flefevre/git/neomda/basemda/mda/pom.xml'
+    Output: 'file:/home/flefevre/git/neomda/basemda/mda/readme.txt'
+    Output: 'file:/home/flefevre/git/neomda/basemda/mda/src/main/config/andromda.xml'
+    Output: 'file:/home/flefevre/git/neomda/basemda/mda/src/main/config/mappings/JavaMappings.xml'
+    Output: 'file:/home/flefevre/git/neomda/basemda/mda/src/main/config/mappings/SpringMergeMappings.xml'
+    Output: 'file:/home/flefevre/git/neomda/basemda/mda/src/main/uml/andromda-common-3.4.profile.uml'
+    Output: 'file:/home/flefevre/git/neomda/basemda/mda/src/main/uml/andromda-datatype-3.4.uml'
+    Output: 'file:/home/flefevre/git/neomda/basemda/mda/src/main/uml/andromda-messaging-3.4.profile.uml'
+    Output: 'file:/home/flefevre/git/neomda/basemda/mda/src/main/uml/andromda-meta-3.4.profile.uml'
+    Output: 'file:/home/flefevre/git/neomda/basemda/mda/src/main/uml/andromda-persistence-3.4.profile.uml'
+    Output: 'file:/home/flefevre/git/neomda/basemda/mda/src/main/uml/andromda-presentation-3.4.profile.uml'
+    Output: 'file:/home/flefevre/git/neomda/basemda/mda/src/main/uml/andromda-process-3.4.profile.uml'
+    Output: 'file:/home/flefevre/git/neomda/basemda/mda/src/main/uml/andromda-service-3.4.profile.uml'
+    Output: 'file:/home/flefevre/git/neomda/basemda/mda/src/main/uml/andromda-webservice-3.4.profile.uml'
+    Output: 'file:/home/flefevre/git/neomda/basemda/mda/src/main/uml/andromda-xml-3.4.profile.uml'
+    Output: 'file:/home/flefevre/git/neomda/basemda/mda/src/main/uml/basemda.xml'
+    Output: 'file:/home/flefevre/git/neomda/basemda/mda/src/main/uml/basemda.uml'
+    Output: 'file:/home/flefevre/git/neomda/basemda/mda/src/main/uml/basemda.uml.vsl2'
+    Output: 'file:/home/flefevre/git/neomda/basemda/pom.xml'
+    Output: 'file:/home/flefevre/git/neomda/basemda/readme.txt'
+    Output: 'file:/home/flefevre/git/neomda/basemda/webservice/pom.xml'
+    Output: 'file:/home/flefevre/git/neomda/basemda/webservice/target/basemda-webservice-0.1-SNASPHOT/WEB-INF/web.xml'
+-------------------------------------------------------------------------------------
+    New application generated to --> 'file:/home/flefevre/git/neomda/basemda/'
+    Instructions for your new application --> 'file:/home/flefevre/git/neomda/basemda/readme.txt'
+-------------------------------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 01:57 min
+[INFO] Finished at: 2016-02-24T12:47:25-08:00
+[INFO] Final Memory: 19M/50M
+[INFO] ------------------------------------------------------------------------
+[flefevre@localhost neomda]$ ls
+andromda-andromdapp.log  andromda.log  basemda
+[flefevre@localhost neomda]$ git status
+# On branch master
+# Changes not staged for commit:
+#   (use "git add/rm <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	deleted:    LICENSE
+#	deleted:    README.md
+#
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	andromda-andromdapp.log
+#	andromda.log
+#	basemda/
+no changes added to commit (use "git add" and/or "git commit -a")
+[flefevre@localhost neomda]$ git remote -vv
+origin	https://github.com/flefevre/neomda.git (fetch)
+origin	https://github.com/flefevre/neomda.git (push)
+[flefevre@localhost neomda]$ cd basemda/
+[flefevre@localhost basemda]$ mvn clean install
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective settings
+[WARNING] Unrecognised tag: 'repositories' (position: START_TAG seen <settings>\n<repositories>... @2:15)  @ /home/flefevre/.m2/settings.xml, line 2, column 15
+[WARNING] 
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] BaseMda
+[INFO] BaseMda MDA
+[INFO] BaseMda Common
+[INFO] BaseMda Core Business Tier
+[INFO] BaseMda Web Services
+[INFO] BaseMda Application
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building BaseMda 0.1-SNASPHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ basemda ---
+[INFO] Deleting /home/flefevre/git/neomda/basemda (includes = [*.log, **/*.exc, **/*.bak], excludes = [build.log, install.log])
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.1.1:enforce (enforce-versions) @ basemda ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ basemda ---
+[INFO] Installing /home/flefevre/git/neomda/basemda/pom.xml to /home/flefevre/.m2/repository/org/basemda/basemda/0.1-SNASPHOT/basemda-0.1-SNASPHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building BaseMda MDA 0.1-SNASPHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ basemda-mda ---
+[INFO] Deleting /home/flefevre/git/neomda/basemda/mda (includes = [*.log, **/*.exc, **/*.bak], excludes = [build.log, install.log])
+[INFO] 
+[INFO] --- andromda-maven-plugin:3.4:run (default) @ basemda-mda ---
+INFO  [AndroMDA] 
+INFO  [AndroMDA] A n d r o M D A  -  3.4
+INFO  [AndroMDA] 
+INFO  [AndroMDA] - discovering namespaces -
+INFO  [AndroMDA] found namespace --> 'emf-uml22'
+INFO  [AndroMDA]   +  registering component 'metafacades'
+INFO  [AndroMDA]   +  registering component 'profile'
+INFO  [AndroMDA]   +  registering component 'repository'
+INFO  [AndroMDA] found namespace --> 'hibernate'
+INFO  [AndroMDA]   +  registering component 'cartridge'
+INFO  [AndroMDA]   +  registering component 'metafacades'
+INFO  [AndroMDA]   +  registering component 'profile'
+INFO  [AndroMDA] found namespace --> 'java'
+INFO  [AndroMDA]   +  registering component 'cartridge'
+INFO  [AndroMDA]   +  registering component 'profile'
+INFO  [AndroMDA]   +  registering component 'metafacades'
+INFO  [AndroMDA] found namespace --> 'netBeansMDR'
+INFO  [AndroMDA]   +  registering component 'repository'
+INFO  [AndroMDA] found namespace --> 'spring'
+INFO  [AndroMDA]   +  registering component 'cartridge'
+INFO  [AndroMDA]   +  registering component 'metafacades'
+INFO  [AndroMDA]   +  registering component 'profile'
+INFO  [AndroMDA] found namespace --> 'uml-1.4'
+INFO  [AndroMDA]   +  registering component 'metafacades'
+INFO  [AndroMDA]   +  registering component 'profile'
+INFO  [AndroMDA] found namespace --> 'validation'
+INFO  [AndroMDA]   +  registering component 'translation-library'
+INFO  [AndroMDA] found namespace --> 'webservice'
+INFO  [AndroMDA]   +  registering component 'cartridge'
+INFO  [AndroMDA]   +  registering component 'metafacades'
+INFO  [AndroMDA]   +  registering component 'profile'
+INFO  [AndroMDA] - core initialization complete: 10.947[s] -
+INFO  [AndroMDA] loading model --> 'file:/home/flefevre/git/neomda/basemda/mda/src/main/uml/basemda.uml'
+INFO  [AndroMDA] referenced model --> 'file:/home/flefevre/git/neomda/basemda/mda/src/main/uml/basemda.uml' 
+INFO  [AndroMDA] referenced model --> 'jar:file:/home/flefevre/.m2/repository/org/eclipse/uml2/org.eclipse.uml2.uml.resources/3.1.0.v201005031530/org.eclipse.uml2.uml.resources-3.1.0.v201005031530.jar!/profiles/Standard.profile.uml#_yzU58YinEdqtvbnfB2L_5w' 
+INFO  [AndroMDA] referenced model --> 'jar:file:/home/flefevre/.m2/repository/org/eclipse/uml2/org.eclipse.uml2.uml.resources/3.1.0.v201005031530/org.eclipse.uml2.uml.resources-3.1.0.v201005031530.jar!/profiles/Standard.profile.uml#_0' 
+INFO  [AndroMDA] referenced model --> 'jar:file:/home/flefevre/.m2/repository/org/eclipse/uml2/org.eclipse.uml2.uml.resources/3.1.0.v201005031530/org.eclipse.uml2.uml.resources-3.1.0.v201005031530.jar!/profiles/Standard.profile.uml' 
+INFO  [AndroMDA] referenced model --> 'jar:file:/home/flefevre/.m2/repository/org/eclipse/uml2/org.eclipse.uml2.uml.resources/3.1.0.v201005031530/org.eclipse.uml2.uml.resources-3.1.0.v201005031530.jar!/profiles/Ecore.profile.uml#_z1OFcHjqEdy8S4Cr8Rc_NA' 
+INFO  [AndroMDA] referenced model --> 'jar:file:/home/flefevre/.m2/repository/org/eclipse/uml2/org.eclipse.uml2.uml.resources/3.1.0.v201005031530/org.eclipse.uml2.uml.resources-3.1.0.v201005031530.jar!/profiles/Ecore.profile.uml#_0' 
+INFO  [AndroMDA] referenced model --> 'jar:file:/home/flefevre/.m2/repository/org/eclipse/uml2/org.eclipse.uml2.uml.resources/3.1.0.v201005031530/org.eclipse.uml2.uml.resources-3.1.0.v201005031530.jar!/profiles/Ecore.profile.uml' 
+INFO  [AndroMDA] referenced model --> 'file:/home/flefevre/git/neomda/basemda/mda/src/main/uml/andromda-datatype-3.4.uml' 
+INFO  [AndroMDA] referenced model --> 'file:/home/flefevre/git/neomda/basemda/mda/src/main/uml/andromda-common-3.4.profile.uml' 
+INFO  [AndroMDA] referenced model --> 'file:/home/flefevre/git/neomda/basemda/mda/src/main/uml/andromda-persistence-3.4.profile.uml' 
+INFO  [AndroMDA] referenced model --> 'file:/home/flefevre/git/neomda/basemda/mda/src/main/uml/andromda-presentation-3.4.profile.uml' 
+INFO  [AndroMDA] referenced model --> 'file:/home/flefevre/git/neomda/basemda/mda/src/main/uml/andromda-process-3.4.profile.uml' 
+INFO  [AndroMDA] referenced model --> 'file:/home/flefevre/git/neomda/basemda/mda/src/main/uml/andromda-service-3.4.profile.uml' 
+INFO  [AndroMDA] referenced model --> 'file:/home/flefevre/git/neomda/basemda/mda/src/main/uml/andromda-webservice-3.4.profile.uml' 
+INFO  [AndroMDA] referenced model --> 'file:/home/flefevre/git/neomda/basemda/mda/src/main/uml/andromda-xml-3.4.profile.uml' 
+INFO  [AndroMDA] - loading complete: 3.998[s] -
+INFO  [AndroMDA] - validating model -
+INFO  [AndroMDA] - validation complete: 1.53[s] -
+INFO  [AndroMDA] Processing cartridge spring on model /home/flefevre/git/neomda/basemda/mda/src/main/uml/basemda.uml
+INFO  [Cartridge] Processing templates/spring/SpringServiceLocator.vsl with 0 metafacades from 2 model elements
+INFO  [Cartridge] Processing templates/spring/SpringServiceLocator.vsl with 0 metafacades from 2 model elements
+INFO  [Cartridge] Processing templates/spring/richclient/SpringServerTest.vsl with 0 metafacades from 1 model elements
+INFO  [Cartridge] Processing templates/spring/richclient/ThisBeanFactory.java.vsl with 0 metafacades from 1 model elements
+INFO  [Cartridge] Processing templates/spring/remoting/client/SpringClientServiceLocator.vsl with 0 metafacades from 2 model elements
+INFO  [Cartridge] Processing templates/spring/richclient/SpringClientTest.vsl with 0 metafacades from 1 model elements
+INFO  [Cartridge] Processing templates/spring/SpringClientExceptionHandlingAdvice.vsl with 0 metafacades from 1 model elements
+INFO  [Cartridge] Processing templates/spring/SpringService.vsl with 0 metafacades from 1 model elements
+INFO  [Cartridge] Processing templates/spring/SpringService.vsl with 0 metafacades from 1 model elements
+INFO  [Cartridge] Processing templates/spring/SpringWebServiceDelegator.vsl with 0 metafacades from 1 model elements
+INFO  [Cartridge] Processing templates/spring/SpringServiceBase.vsl with 0 metafacades from 1 model elements
+INFO  [Cartridge] Processing templates/spring/SpringServiceBase.vsl with 0 metafacades from 1 model elements
+INFO  [Cartridge] Processing templates/spring/SpringPrincipalStore.java.vsl with 0 metafacades from 2 model elements
+INFO  [AndroMDA:spring] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../core/target/src/main/java/org/basemda/PrincipalStore.java'
+INFO  [Cartridge] Processing templates/spring/SpringPrincipalStore.java.vsl with 0 metafacades from 1 model elements
+WARN  [Cartridge] Template outlet location 'server' is not defined in namespace spring
+INFO  [Cartridge] Processing templates/spring/SpringServiceImpl.vsl with 0 metafacades from 1 model elements
+INFO  [Cartridge] Processing templates/spring/SpringServiceImpl.vsl with 0 metafacades from 1 model elements
+INFO  [Cartridge] Processing templates/spring/DefaultServiceException.vsl with 0 metafacades from 1 model elements
+INFO  [Cartridge] Processing templates/spring/DefaultServiceException.vsl with 0 metafacades from 1 model elements
+INFO  [Cartridge] Processing templates/spring/SpringDao.vsl with 0 metafacades from 1 model elements
+INFO  [Cartridge] Processing templates/spring/hibernate/SpringHibernateDaoBase.vsl with 0 metafacades from 1 model elements
+INFO  [Cartridge] Processing templates/spring/hibernate/SpringHibernateDaoImpl.vsl with 0 metafacades from 1 model elements
+INFO  [Cartridge] Processing templates/spring/hibernate/SpringHibernateDaoImpl.vsl with 0 metafacades from 1 model elements
+INFO  [Cartridge] Processing templates/spring/ejb/SpringSessionBean.vsl with 0 metafacades from 1 model elements
+INFO  [Cartridge] Processing templates/spring/ejb/SpringSessionRemote.vsl with 0 metafacades from 1 model elements
+INFO  [Cartridge] Processing templates/spring/ejb/SpringSessionRemoteHome.vsl with 0 metafacades from 1 model elements
+INFO  [Cartridge] Processing templates/spring/ejb/SpringSessionLocal.vsl with 0 metafacades from 1 model elements
+INFO  [Cartridge] Processing templates/spring/ejb/SpringSessionLocalHome.vsl with 0 metafacades from 1 model elements
+INFO  [Cartridge] Processing templates/spring/applicationContext.xml.vsl with 0 metafacades from 3 model elements
+INFO  [Cartridge] Processing templates/spring/applicationContext-dataSource.xml.vsl with 0 metafacades from 2 model elements
+INFO  [Cartridge] Processing templates/spring/applicationContext-localDataSource.xml.vsl with 0 metafacades from 2 model elements
+INFO  [Cartridge] Processing templates/spring/applicationContext-testDataSource.xml.vsl with 0 metafacades from 2 model elements
+INFO  [AndroMDA:spring] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../core/src/test/resources/applicationContext-testDataSource.xml'
+INFO  [Cartridge] Processing templates/spring/applicationContext-server.xml.vsl with 0 metafacades from 2 model elements
+INFO  [Cartridge] Processing templates/spring/applicationContext-server.xml.vsl with 0 metafacades from 2 model elements
+INFO  [Cartridge] Processing templates/spring/remoting/client/applicationContext-client.xml.vsl with 0 metafacades from 2 model elements
+INFO  [Cartridge] Processing templates/spring/richclient/applicationContext-server-authentication.xml.vsl with 0 metafacades from 1 model elements
+INFO  [Cartridge] Processing templates/spring/hibernate/H2.java.vsl with 0 metafacades from 1 model elements
+INFO  [AndroMDA:spring] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../core/target/src/test/java/org/andromda/dbtest/H2.java'
+INFO  [Cartridge] Processing templates/spring/richclient/ehcache-server-authentication.xml.vsl with 0 metafacades from 1 model elements
+INFO  [Cartridge] Processing templates/spring/richclient/AuthenticationDaoImpl.vsl with 0 metafacades from 1 model elements
+INFO  [Cartridge] Processing templates/spring/richclient/SpringMergeMappings.vsl with 0 metafacades from 1 model elements
+INFO  [Cartridge] Processing templates/spring/remoting/client/applicationContext-client-authentication.xml.vsl with 0 metafacades from 1 model elements
+INFO  [Cartridge] Processing templates/spring/remoting/client/applicationContext-client.properties.vsl with 0 metafacades from 1 model elements
+INFO  [Cartridge] Processing templates/spring/osgi/applicationContext-osgi-export.xml.vsl with 0 metafacades from 1 model elements
+INFO  [Cartridge] Processing templates/spring/osgi/applicationContext-osgi-import.xml.vsl with 0 metafacades from 1 model elements
+INFO  [Cartridge] Processing templates/spring/richclient/web.xml.vsl with 0 metafacades from 4 model elements
+INFO  [Cartridge] Processing templates/spring/ejb/applicationContext-remoteEjb.xml.vsl with 0 metafacades from 1 model elements
+INFO  [Cartridge] Processing templates/spring/ejb/applicationContext-localEjb.xml.vsl with 0 metafacades from 1 model elements
+INFO  [Cartridge] Processing templates/spring/ejb/ejb-jar.xml.vsl with 0 metafacades from 1 model elements
+INFO  [Cartridge] Processing templates/spring/ejb/ejb-jar.xml.vsl with 0 metafacades from 1 model elements
+INFO  [Cartridge] Processing templates/spring/ejb/jboss.xml.vsl with 0 metafacades from 1 model elements
+INFO  [Cartridge] Processing templates/spring/ejb/jboss.xml.vsl with 0 metafacades from 1 model elements
+INFO  [Cartridge] Processing templates/spring/beanRefFactory.xml.vsl with 0 metafacades from 4 model elements
+INFO  [Cartridge] Processing templates/spring/richclient/serverTestBeanRefFactory.xml.vsl with 0 metafacades from 3 model elements
+INFO  [Cartridge] Processing templates/spring/richclient/serverTestBeanRefFactory.properties.vsl with 0 metafacades from 1 model elements
+INFO  [Cartridge] Processing templates/spring/hibernate/search/SearchParameter.java.vsl with 0 metafacades from 1 model elements
+INFO  [AndroMDA:spring] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../core/target/src/main/java/org/basemda/SearchParameter.java'
+INFO  [Cartridge] Processing templates/spring/hibernate/search/Search.java.vsl with 0 metafacades from 1 model elements
+INFO  [AndroMDA:spring] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../core/target/src/main/java/org/basemda/Search.java'
+INFO  [Cartridge] Processing templates/spring/hibernate/search/PropertySearch.java.vsl with 0 metafacades from 1 model elements
+INFO  [AndroMDA:spring] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../core/target/src/main/java/org/basemda/PropertySearch.java'
+INFO  [AndroMDA:spring] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../core/target/src/main/java/org/andromda/spring/PaginationResult.java'
+INFO  [Cartridge] Processing templates/spring/hibernate/HibernateSearch.vsl with 0 metafacades from 1 model elements
+INFO  [AndroMDA:spring] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../core/target/src/main/java/org/basemda/CriteriaSearch.java'
+INFO  [Cartridge] Processing templates/spring/hibernate/HibernateSearchProperties.vsl with 0 metafacades from 1 model elements
+INFO  [AndroMDA:spring] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../core/target/src/main/java/org/basemda/CriteriaSearchProperties.java'
+INFO  [Cartridge] Processing templates/spring/hibernate/HibernateSearchConfiguration.vsl with 0 metafacades from 1 model elements
+INFO  [AndroMDA:spring] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../core/target/src/main/java/org/basemda/CriteriaSearchConfiguration.java'
+INFO  [Cartridge] Processing templates/spring/hibernate/HibernateSearchParameter.vsl with 0 metafacades from 1 model elements
+INFO  [AndroMDA:spring] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../core/target/src/main/java/org/basemda/CriteriaSearchParameter.java'
+INFO  [Cartridge] Processing templates/spring/hibernate/SearchCriteria.vsl with 0 metafacades from 1 model elements
+INFO  [Cartridge] Processing templates/spring/presentation/hibernate/OpenSessionInViewFilter.java.vsl with 0 metafacades from 1 model elements
+WARN  [Cartridge] Template outlet location 'open-session-in-view' is not defined in namespace spring
+INFO  [AndroMDA:spring] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../core/target/src/main/java/org/basemda/BeanLocator.java'
+WARN  [Cartridge] Template outlet location 'remoting-war-support' is not defined in namespace spring
+WARN  [Cartridge] Template outlet location 'remoting-war-support' is not defined in namespace spring
+INFO  [Cartridge] Processing templates/spring/remoting/SpringRemotingWarMergeMappings.xml.vsl with 0 metafacades from 1 model elements
+INFO  [Cartridge] Processing templates/spring/remoting/client/AuthenticatingHttpInvokerRequestExecutor.java.vsl with 0 metafacades from 1 model elements
+INFO  [Cartridge] Processing templates/spring/jms/applicationContext-jms.xml.vsl with 0 metafacades from 4 model elements
+INFO  [Cartridge] Processing templates/spring/jms/MessageListener.java.vsl with 0 metafacades from 1 model elements
+INFO  [Cartridge] Processing templates/spring/crud/applicationContext-manageable.xml.vsl with 0 metafacades from 1 model elements
+INFO  [Cartridge] Processing templates/spring/crud/SpringCrudServiceLocator.vsl with 0 metafacades from 1 model elements
+INFO  [Cartridge] Processing templates/spring/crud/SpringCrudService.vsl with 0 metafacades from 1 model elements
+INFO  [Cartridge] Processing templates/spring/crud/SpringCrudServiceBase.vsl with 0 metafacades from 1 model elements
+INFO  [Cartridge] Processing templates/spring/crud/SpringCrudDao.vsl with 0 metafacades from 1 model elements
+INFO  [Cartridge] Processing templates/spring/crud/SpringCrudDaoBase.vsl with 0 metafacades from 1 model elements
+INFO  [Cartridge] Processing templates/spring/crud/SpringCrudValueObject.vsl with 0 metafacades from 1 model elements
+INFO  [AndroMDA] Processing cartridge hibernate on model /home/flefevre/git/neomda/basemda/mda/src/main/uml/basemda.uml
+INFO  [Cartridge] Processing templates/hibernate/HibernateEntity.vsl with 0 metafacades from 1 model elements
+INFO  [Cartridge] Processing templates/hibernate/HibernateEntityImpl.vsl with 0 metafacades from 1 model elements
+INFO  [Cartridge] Processing templates/hibernate/HibernateEntityImpl.vsl with 0 metafacades from 1 model elements
+INFO  [Cartridge] Processing templates/hibernate/HibernateEntityPK.vsl with 0 metafacades from 1 model elements
+INFO  [Cartridge] Processing templates/hibernate/HibernateEmbeddedValue.vsl with 0 metafacades from 1 model elements
+INFO  [Cartridge] Processing templates/hibernate/HibernateEmbeddedValueImpl.vsl with 0 metafacades from 1 model elements
+INFO  [AndroMDA:hibernate] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../core/target/src/main/java/org/andromda/persistence/hibernate/usertypes/HibernateByteBlobType.java'
+INFO  [AndroMDA:hibernate] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../core/target/src/main/java/org/andromda/persistence/hibernate/usertypes/HibernateStringClobType.java'
+INFO  [Cartridge] Processing templates/hibernate/ejb/ejb-jar.xml.vsl with 0 metafacades from 1 model elements
+INFO  [Cartridge] Processing templates/hibernate/ejb/jboss.xml.vsl with 0 metafacades from 1 model elements
+INFO  [Cartridge] Processing templates/hibernate/ejb/HibernateSessionEJBLocator.vsl with 0 metafacades from 1 model elements
+INFO  [Cartridge] Processing templates/hibernate/ejb/HibernateSessionBean.vsl with 0 metafacades from 1 model elements
+INFO  [Cartridge] Processing templates/hibernate/ejb/HibernateSessionBeanImpl.vsl with 0 metafacades from 1 model elements
+INFO  [Cartridge] Processing templates/hibernate/ejb/HibernateSession.vsl with 0 metafacades from 1 model elements
+INFO  [Cartridge] Processing templates/hibernate/ejb/HibernateSessionHome.vsl with 0 metafacades from 1 model elements
+WARN  [Cartridge] Template outlet location 'session-beans' is not defined in namespace hibernate
+INFO  [Cartridge] Processing templates/hibernate/ehcache.xml.vsl with 0 metafacades from 1 model elements
+INFO  [Cartridge] Processing templates/hibernate3/ejb/HibernateEntityFactory.vsl with 0 metafacades from 1 model elements
+INFO  [Cartridge] Processing templates/hibernate/persistence.xml.vsl with 0 metafacades from 1 model elements
+INFO  [Cartridge] Processing templates/hibernate3/hibernate.cfg.xml.vsl with 0 metafacades from 1 model elements
+INFO  [Cartridge] Processing templates/hibernate/test/persistence-test.xml.vsl with 0 metafacades from 1 model elements
+INFO  [Cartridge] Processing templates/hibernate/test/hibernate-test.cfg.xml.vsl with 0 metafacades from 1 model elements
+INFO  [Cartridge] Processing templates/hibernate3/hibernate.hbm.xml.vsl with 0 metafacades from 1 model elements
+INFO  [Cartridge] Processing templates/hibernate3/HibernateEnumeration.vsl with 0 metafacades from 1 model elements
+INFO  [Cartridge] Processing templates/hibernate3/usertypes/HibernateEnumType.vsl with 0 metafacades from 1 model elements
+INFO  [Cartridge] Processing templates/hibernate2/ejb/HibernateEntityFactory.vsl with 0 metafacades from 1 model elements
+INFO  [Cartridge] Processing templates/hibernate2/hibernate.cfg.xml.vsl with 0 metafacades from 1 model elements
+INFO  [Cartridge] Processing templates/hibernate2/hibernate.hbm.xml.vsl with 0 metafacades from 1 model elements
+INFO  [Cartridge] Processing templates/hibernate2/HibernateEnumeration.vsl with 0 metafacades from 1 model elements
+INFO  [AndroMDA] Processing cartridge webservice on model /home/flefevre/git/neomda/basemda/mda/src/main/uml/basemda.uml
+INFO  [AndroMDA:webservice] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../webservice/src/main/webapp/WEB-INF/ibm-web-bnd.xmi'
+INFO  [AndroMDA:webservice] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../webservice/src/main/webapp/WEB-INF/ibm-web-ext.xmi'
+INFO  [AndroMDA:webservice] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../webservice/src/main/webapp/WEB-INF/modules/addressing.mar'
+INFO  [AndroMDA:webservice] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../webservice/src/main/webapp/WEB-INF/modules/soapmonitor.mar'
+INFO  [AndroMDA:webservice] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../webservice/src/main/webapp/WEB-INF/services/version.aar'
+INFO  [AndroMDA:webservice] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../webservice/src/main/webapp/axis2-web/ActivateService.jsp'
+INFO  [AndroMDA:webservice] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../webservice/src/main/webapp/axis2-web/admin.jsp'
+INFO  [AndroMDA:webservice] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../webservice/src/main/webapp/axis2-web/css/axis-style.css'
+INFO  [AndroMDA:webservice] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../webservice/src/main/webapp/axis2-web/disengage.jsp'
+INFO  [AndroMDA:webservice] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../webservice/src/main/webapp/axis2-web/EngageToServiceGroup.jsp'
+INFO  [AndroMDA:webservice] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../webservice/src/main/webapp/axis2-web/engagingglobally.jsp'
+INFO  [AndroMDA:webservice] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../webservice/src/main/webapp/axis2-web/engagingtoanoperation.jsp'
+INFO  [AndroMDA:webservice] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../webservice/src/main/webapp/axis2-web/engagingtoaservice.jsp'
+INFO  [AndroMDA:webservice] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../webservice/src/main/webapp/axis2-web/Error/AuthError.html'
+INFO  [AndroMDA:webservice] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../webservice/src/main/webapp/axis2-web/Error/error404.jsp'
+INFO  [AndroMDA:webservice] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../webservice/src/main/webapp/axis2-web/Error/error500.jsp'
+INFO  [AndroMDA:webservice] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../webservice/src/main/webapp/axis2-web/Error/GenError.html'
+INFO  [AndroMDA:webservice] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../webservice/src/main/webapp/axis2-web/error.jsp'
+INFO  [AndroMDA:webservice] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../webservice/src/main/webapp/axis2-web/errorModule.jsp'
+INFO  [AndroMDA:webservice] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../webservice/src/main/webapp/axis2-web/globalModules.jsp'
+INFO  [AndroMDA:webservice] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../webservice/src/main/webapp/axis2-web/HappyAxis.jsp'
+INFO  [AndroMDA:webservice] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../webservice/src/main/webapp/axis2-web/images/asf-logo.gif'
+INFO  [AndroMDA:webservice] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../webservice/src/main/webapp/axis2-web/images/axis.gif'
+INFO  [AndroMDA:webservice] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../webservice/src/main/webapp/axis2-web/images/axis.jpg'
+INFO  [AndroMDA:webservice] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../webservice/src/main/webapp/axis2-web/images/axis_l.jpg'
+INFO  [AndroMDA:webservice] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../webservice/src/main/webapp/axis2-web/InActivateService.jsp'
+INFO  [AndroMDA:webservice] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../webservice/src/main/webapp/axis2-web/include/adminfooter.inc'
+INFO  [AndroMDA:webservice] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../webservice/src/main/webapp/axis2-web/include/adminheader.inc'
+INFO  [AndroMDA:webservice] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../webservice/src/main/webapp/axis2-web/include/adminheader.jsp'
+INFO  [AndroMDA:webservice] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../webservice/src/main/webapp/axis2-web/include/footer.inc'
+INFO  [AndroMDA:webservice] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../webservice/src/main/webapp/axis2-web/include/header.inc'
+INFO  [AndroMDA:webservice] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../webservice/src/main/webapp/axis2-web/include/httpbase.jsp'
+INFO  [AndroMDA:webservice] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../webservice/src/main/webapp/axis2-web/include/link-footer.inc'
+INFO  [AndroMDA:webservice] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../webservice/src/main/webapp/axis2-web/include/link-footer.jsp'
+INFO  [AndroMDA:webservice] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../webservice/src/main/webapp/axis2-web/index.jsp'
+INFO  [AndroMDA:webservice] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../webservice/src/main/webapp/axis2-web/LeftFrame.jsp'
+INFO  [AndroMDA:webservice] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../webservice/src/main/webapp/axis2-web/listFaultyService.jsp'
+INFO  [AndroMDA:webservice] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../webservice/src/main/webapp/axis2-web/listGroupService.jsp'
+INFO  [AndroMDA:webservice] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../webservice/src/main/webapp/axis2-web/listModules.jsp'
+INFO  [AndroMDA:webservice] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../webservice/src/main/webapp/axis2-web/listService.jsp'
+INFO  [AndroMDA:webservice] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../webservice/src/main/webapp/axis2-web/ListServiceGroup.jsp'
+INFO  [AndroMDA:webservice] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../webservice/src/main/webapp/axis2-web/listServices.jsp'
+INFO  [AndroMDA:webservice] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../webservice/src/main/webapp/axis2-web/listSingleService.jsp'
+INFO  [AndroMDA:webservice] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../webservice/src/main/webapp/axis2-web/Login.jsp'
+INFO  [AndroMDA:webservice] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../webservice/src/main/webapp/axis2-web/MainFrame.jsp'
+INFO  [AndroMDA:webservice] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../webservice/src/main/webapp/axis2-web/scripts/build.xml'
+INFO  [AndroMDA:webservice] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../webservice/src/main/webapp/axis2-web/SelectService.jsp'
+INFO  [AndroMDA:webservice] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../webservice/src/main/webapp/axis2-web/ServiceParaEdit.jsp'
+INFO  [AndroMDA:webservice] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../webservice/src/main/webapp/axis2-web/TopFrame.jsp'
+INFO  [AndroMDA:webservice] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../webservice/src/main/webapp/axis2-web/upload.jsp'
+INFO  [AndroMDA:webservice] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../webservice/src/main/webapp/axis2-web/ViewContexts.jsp'
+INFO  [AndroMDA:webservice] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../webservice/src/main/webapp/axis2-web/ViewGlobalHandlers.jsp'
+INFO  [AndroMDA:webservice] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../webservice/src/main/webapp/axis2-web/viewphases.jsp'
+INFO  [AndroMDA:webservice] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../webservice/src/main/webapp/axis2-web/viewServiceContext.jsp'
+INFO  [AndroMDA:webservice] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../webservice/src/main/webapp/axis2-web/viewServiceGroupContext.jsp'
+INFO  [AndroMDA:webservice] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../webservice/src/main/webapp/axis2-web/ViewServiceHandlers.jsp'
+INFO  [Cartridge] Processing templates/webservice/jaxws/jaxws-package-xsd.vsl with 0 metafacades from 1 model elements
+INFO  [Cartridge] Processing templates/webservice/jaxws/jaxws-package-xsd.vsl with 0 metafacades from 1 model elements
+INFO  [Cartridge] Processing templates/webservice/jaxws/package-info.java.vsl with 0 metafacades from 1 model elements
+INFO  [Cartridge] Processing templates/webservice/configuration/web.xml.vsl with 0 metafacades from 1 model elements
+INFO  [AndroMDA:webservice] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../webservice/src/main/webapp/WEB-INF/web.xml'
+INFO  [Cartridge] Processing templates/webservice/configuration/web.xml.vsl with 0 metafacades from 1 model elements
+INFO  [AndroMDA:webservice] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../webservice/src/main/webapp/WEB-INF/ref/web.xml.ref'
+INFO  [Cartridge] Processing templates/webservice/cxf/jaxb_bindings.xml.vsl with 0 metafacades from 1 model elements
+INFO  [Cartridge] Processing templates/webservice/cxf/jaxb_bindings.xml.vsl with 0 metafacades from 1 model elements
+INFO  [Cartridge] Processing templates/webservice/cxf/buildWS.xml.vsl with 0 metafacades from 1 model elements
+INFO  [Cartridge] Processing templates/webservice/cxf/buildWS.xml.vsl with 0 metafacades from 1 model elements
+INFO  [Cartridge] Processing templates/webservice/jaxws/jaxws-wsdl.vsl with 0 metafacades from 1 model elements
+INFO  [Cartridge] Processing templates/webservice/jaxws/jaxws-wsdl.vsl with 0 metafacades from 1 model elements
+INFO  [Cartridge] Processing templates/webservice/jaxws/package-info.java.vsl with 0 metafacades from 1 model elements
+INFO  [Cartridge] Processing templates/webservice/jaxws/WebServiceInterface.java.vsl with 0 metafacades from 1 model elements
+INFO  [Cartridge] Processing templates/webservice/jaxws/WebServiceEndpoint.java.vsl with 0 metafacades from 1 model elements
+INFO  [Cartridge] Processing templates/webservice/jaxws/WebServiceDelegate.java.vsl with 0 metafacades from 1 model elements
+INFO  [Cartridge] Processing templates/webservice/jaxws/WebServiceDelegate.java.vsl with 0 metafacades from 1 model elements
+INFO  [Cartridge] Processing templates/webservice/jaxws/WebServiceSEIImplTest.java.vsl with 0 metafacades from 1 model elements
+INFO  [Cartridge] Processing templates/webservice/jaxws/WebServiceSEIImplTest.java.vsl with 0 metafacades from 1 model elements
+INFO  [Cartridge] Processing templates/webservice/jaxws/MethodResponse.java.vsl with 0 metafacades from 1 model elements
+INFO  [Cartridge] Processing templates/webservice/jaxws/MethodRequest.java.vsl with 0 metafacades from 1 model elements
+INFO  [Cartridge] Processing templates/webservice/jaxws/WebServiceMethodImpl.java.vsl with 0 metafacades from 1 model elements
+INFO  [Cartridge] Processing templates/webservice/jaxws/WebServiceMethodImpl.java.vsl with 0 metafacades from 1 model elements
+INFO  [Cartridge] Processing templates/webservice/cxf/WSClient.java.vsl with 0 metafacades from 1 model elements
+INFO  [Cartridge] Processing templates/webservice/cxf/WSClient.java.vsl with 0 metafacades from 1 model elements
+INFO  [Cartridge] Processing templates/webservice/jaxws/WebServiceClient.java.vsl with 0 metafacades from 1 model elements
+INFO  [Cartridge] Processing templates/webservice/jaxws/WebServiceClient.java.vsl with 0 metafacades from 1 model elements
+INFO  [Cartridge] Processing templates/webservice/jaxws/JettyServer.java.vsl with 0 metafacades from 1 model elements
+INFO  [Cartridge] Processing templates/webservice/jaxws/JettyServer.java.vsl with 0 metafacades from 1 model elements
+INFO  [Cartridge] Processing templates/webservice/cxf/WSClient.java.vsl with 0 metafacades from 1 model elements
+INFO  [Cartridge] Processing templates/webservice/cxf/CXFTestClient.java.vsl with 0 metafacades from 1 model elements
+INFO  [Cartridge] Processing templates/webservice/cxf/CXFTestClient.java.vsl with 0 metafacades from 1 model elements
+INFO  [Cartridge] Processing templates/webservice/jaxws/index.html.vsl with 0 metafacades from 1 model elements
+INFO  [Cartridge] Processing templates/webservice/jaxws/index.html.vsl with 0 metafacades from 1 model elements
+INFO  [Cartridge] Processing templates/webservice/cxf/applicationContext-CXF.xml.vsl with 0 metafacades from 1 model elements
+INFO  [Cartridge] Processing templates/webservice/cxf/applicationContext-CXF.xml.vsl with 0 metafacades from 1 model elements
+INFO  [Cartridge] Processing templates/webservice/cxf/cxf-client.xml.vsl with 0 metafacades from 1 model elements
+INFO  [Cartridge] Processing templates/webservice/cxf/cxf-client.xml.vsl with 0 metafacades from 1 model elements
+INFO  [Cartridge] Processing templates/webservice/wsdl/wrapped-wsdl.vsl with 0 metafacades from 1 model elements
+INFO  [Cartridge] Processing templates/webservice/xfire/services.xml.vsl with 0 metafacades from 1 model elements
+INFO  [Cartridge] Processing templates/webservice/wsdl/wrapped-wsdl.vsl with 0 metafacades from 1 model elements
+INFO  [Cartridge] Processing templates/webservice/axis2/axis2.xml.vsl with 0 metafacades from 1 model elements
+INFO  [AndroMDA:webservice] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../webservice/src/main/webapp/WEB-INF/conf/axis2.xml'
+INFO  [AndroMDA:webservice] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../core/target/src/main/java/org/basemda/TypeMappings.java'
+INFO  [AndroMDA:webservice] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../core/target/src/main/java/org/basemda/WrappedMessageReceiver.java'
+INFO  [Cartridge] Processing templates/webservice/axis2/services.xml.vsl with 0 metafacades from 1 model elements
+INFO  [Cartridge] Processing templates/webservice/wsdl/wrapped-wsdl.vsl with 0 metafacades from 1 model elements
+INFO  [Cartridge] Processing templates/webservice/axis1/server-config.wsdd.vsl with 0 metafacades from 1 model elements
+INFO  [Cartridge] Processing templates/webservice/axis1/wss4j/crypto.properties.vsl with 0 metafacades from 1 model elements
+INFO  [Cartridge] Processing templates/webservice/axis1/WebServiceTest.java.vsl with 0 metafacades from 1 model elements
+INFO  [Cartridge] Processing templates/webservice/axis1/WebServiceTestServiceLocator.java.vsl with 0 metafacades from 1 model elements
+INFO  [Cartridge] Processing templates/webservice/axis1/WebServiceTestImpl.java.vsl with 0 metafacades from 1 model elements
+INFO  [Cartridge] Processing templates/webservice/axis1/WebServiceTestImpl.java.vsl with 0 metafacades from 1 model elements
+INFO  [AndroMDA:webservice] Output: 'file:/home/flefevre/git/neomda/basemda/mda/../core/target/src/main/java/org/basemda/AttachmentHandler.java'
+INFO  [Cartridge] Processing templates/webservice/jaxws/WebServiceEndpoint.java.vsl with 0 metafacades from 1 model elements
+INFO  [Cartridge] Processing templates/webservice/jaxws/WebServiceInterface.java.vsl with 0 metafacades from 1 model elements
+INFO  [Cartridge] Processing templates/webservice/jaxws/WebServiceDelegate.java.vsl with 0 metafacades from 1 model elements
+INFO  [Cartridge] Processing templates/webservice/jaxws/WebServiceDelegate.java.vsl with 0 metafacades from 1 model elements
+INFO  [Cartridge] Processing templates/webservice/configuration/sun-jaxws.xml.vsl with 0 metafacades from 1 model elements
+INFO  [Cartridge] Processing templates/webservice/jaxws/jaxws-wsdl.vsl with 0 metafacades from 1 model elements
+INFO  [Cartridge] Processing templates/webservice/jaxws/jaxws-xsd.vsl with 0 metafacades from 1 model elements
+INFO  [AndroMDA] Processing cartridge java on model /home/flefevre/git/neomda/basemda/mda/src/main/uml/basemda.uml
+INFO  [Cartridge] Processing templates/java/Service.vsl with 0 metafacades from 1 model elements
+INFO  [Cartridge] Processing templates/java/ServiceImpl.vsl with 0 metafacades from 1 model elements
+INFO  [Cartridge] Processing templates/java/ServiceImpl.vsl with 0 metafacades from 1 model elements
+INFO  [Cartridge] Processing templates/java/ValueObject.vsl with 0 metafacades from 1 model elements
+INFO  [Cartridge] Processing templates/java/ApplicationException.vsl with 0 metafacades from 2 model elements
+INFO  [Cartridge] Processing templates/java/UnexpectedException.vsl with 0 metafacades from 1 model elements
+INFO  [Cartridge] Processing templates/java/Enumeration.vsl with 0 metafacades from 1 model elements
+INFO  [Cartridge] Processing templates/java/TypeSafeEnumeration.vsl with 0 metafacades from 1 model elements
+INFO  [Cartridge] Processing templates/java/Interface.vsl with 0 metafacades from 1 model elements
+INFO  [Cartridge] Processing templates/java/InterfaceImpl.vsl with 0 metafacades from 1 model elements
+INFO  [AndroMDA] completed model processing --> TIME: 8.748[s], RESOURCES WRITTEN: 91
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ basemda-mda ---
+[INFO] Installing /home/flefevre/git/neomda/basemda/mda/pom.xml to /home/flefevre/.m2/repository/org/basemda/basemda-mda/0.1-SNASPHOT/basemda-mda-0.1-SNASPHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building BaseMda Common 0.1-SNASPHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ basemda-common ---
+[INFO] Deleting /home/flefevre/git/neomda/basemda/common/target
+[INFO] Deleting /home/flefevre/git/neomda/basemda/common (includes = [*.log, **/*.exc, **/*.bak], excludes = [build.log, install.log])
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.7:add-source (add-target-src) @ basemda-common ---
+[INFO] Source directory: /home/flefevre/git/neomda/basemda/common/target/src/main/java added.
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.7:add-test-source (add-target-test) @ basemda-common ---
+[INFO] Test Source directory: /home/flefevre/git/neomda/basemda/common/target/src/test/java added.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ basemda-common ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/flefevre/git/neomda/basemda/common/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.5.1:compile (default-compile) @ basemda-common ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ basemda-common ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/flefevre/git/neomda/basemda/common/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.5.1:testCompile (default-testCompile) @ basemda-common ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.3:test (default-test) @ basemda-common ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ basemda-common ---
+[WARNING] JAR will be empty - no content was marked for inclusion!
+[INFO] Building jar: /home/flefevre/git/neomda/basemda/common/target/basemda-common-0.1-SNASPHOT.jar
+[INFO] 
+[INFO] --- maven-source-plugin:2.2:jar-no-fork (attach-sources) @ basemda-common ---
+[INFO] No sources in project. Archive not created.
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ basemda-common ---
+[INFO] Installing /home/flefevre/git/neomda/basemda/common/target/basemda-common-0.1-SNASPHOT.jar to /home/flefevre/.m2/repository/org/basemda/basemda-common/0.1-SNASPHOT/basemda-common-0.1-SNASPHOT.jar
+[INFO] Installing /home/flefevre/git/neomda/basemda/common/pom.xml to /home/flefevre/.m2/repository/org/basemda/basemda-common/0.1-SNASPHOT/basemda-common-0.1-SNASPHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building BaseMda Core Business Tier 0.1-SNASPHOT
+[INFO] ------------------------------------------------------------------------
+[WARNING] The POM for httpcomponents-httpcore:jakarta-httpcore:jar:4.0-alpha4 is missing, no dependency information available
+[WARNING] The POM for org.apache.ws.commons.neethi:neethi:jar:2.0.1 is missing, no dependency information available
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ basemda-core ---
+[INFO] Deleting /home/flefevre/git/neomda/basemda/core/target
+[INFO] Deleting /home/flefevre/git/neomda/basemda/core (includes = [*.log, **/*.exc, **/*.bak], excludes = [build.log, install.log])
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.7:add-source (add-target-src) @ basemda-core ---
+[INFO] Source directory: /home/flefevre/git/neomda/basemda/core/target/src/main/java added.
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.7:add-test-source (add-target-test) @ basemda-core ---
+[INFO] Test Source directory: /home/flefevre/git/neomda/basemda/core/target/src/test/java added.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ basemda-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/flefevre/git/neomda/basemda/core/src/main/resources
+[INFO] skip non existing resourceDirectory /home/flefevre/git/neomda/basemda/core/target/src/main/java
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.5.1:compile (default-compile) @ basemda-core ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ basemda-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.5.1:testCompile (default-testCompile) @ basemda-core ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.3:test (default-test) @ basemda-core ---
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ basemda-core ---
+[WARNING] JAR will be empty - no content was marked for inclusion!
+[INFO] Building jar: /home/flefevre/git/neomda/basemda/core/target/basemda-core-0.1-SNASPHOT.jar
+[INFO] 
+[INFO] --- maven-source-plugin:2.2:jar-no-fork (attach-sources) @ basemda-core ---
+[INFO] No sources in project. Archive not created.
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ basemda-core ---
+[INFO] Installing /home/flefevre/git/neomda/basemda/core/target/basemda-core-0.1-SNASPHOT.jar to /home/flefevre/.m2/repository/org/basemda/basemda-core/0.1-SNASPHOT/basemda-core-0.1-SNASPHOT.jar
+[INFO] Installing /home/flefevre/git/neomda/basemda/core/pom.xml to /home/flefevre/.m2/repository/org/basemda/basemda-core/0.1-SNASPHOT/basemda-core-0.1-SNASPHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building BaseMda Web Services 0.1-SNASPHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ basemda-webservice ---
+[INFO] Deleting /home/flefevre/git/neomda/basemda/webservice/target
+[INFO] Deleting /home/flefevre/git/neomda/basemda/webservice (includes = [*.log, **/*.exc, **/*.bak], excludes = [build.log, install.log])
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.7:add-source (add-target-src) @ basemda-webservice ---
+[INFO] Source directory: /home/flefevre/git/neomda/basemda/webservice/target/src/main/java added.
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.7:add-test-source (add-target-test) @ basemda-webservice ---
+[INFO] Test Source directory: /home/flefevre/git/neomda/basemda/webservice/target/src/test/java added.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ basemda-webservice ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/flefevre/git/neomda/basemda/webservice/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.5.1:compile (default-compile) @ basemda-webservice ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ basemda-webservice ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/flefevre/git/neomda/basemda/webservice/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.5.1:testCompile (default-testCompile) @ basemda-webservice ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.3:test (default-test) @ basemda-webservice ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-war-plugin:2.2:war (default-war) @ basemda-webservice ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [basemda-webservice] in [/home/flefevre/git/neomda/basemda/webservice/target/basemda-webservice]
+[INFO] Processing war project
+[INFO] Copying webapp resources [/home/flefevre/git/neomda/basemda/webservice/src/main/webapp]
+[INFO] Webapp assembled in [807 msecs]
+[INFO] Building war: /home/flefevre/git/neomda/basemda/webservice/target/basemda-webservice.war
+[INFO] WEB-INF/web.xml already added, skipping
+[INFO] 
+[INFO] --- maven-source-plugin:2.2:jar-no-fork (attach-sources) @ basemda-webservice ---
+[INFO] No sources in project. Archive not created.
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ basemda-webservice ---
+[INFO] Installing /home/flefevre/git/neomda/basemda/webservice/target/basemda-webservice.war to /home/flefevre/.m2/repository/org/basemda/basemda-webservice/0.1-SNASPHOT/basemda-webservice-0.1-SNASPHOT.war
+[INFO] Installing /home/flefevre/git/neomda/basemda/webservice/pom.xml to /home/flefevre/.m2/repository/org/basemda/basemda-webservice/0.1-SNASPHOT/basemda-webservice-0.1-SNASPHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building BaseMda Application 0.1-SNASPHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ basemda-app ---
+[INFO] Deleting /home/flefevre/git/neomda/basemda/app/target
+[INFO] Deleting /home/flefevre/git/neomda/basemda/app (includes = [*.log, **/*.exc, **/*.bak], excludes = [build.log, install.log])
+[INFO] 
+[INFO] --- maven-ear-plugin:2.8:generate-application-xml (default-generate-application-xml) @ basemda-app ---
+[INFO] Generating application.xml
+[INFO] Generating jboss-app.xml
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ basemda-app ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource to ../
+[INFO] skip non existing resourceDirectory /home/flefevre/git/neomda/basemda/app/src/main/application
+[INFO] 
+[INFO] --- maven-ear-plugin:2.8:ear (default-ear) @ basemda-app ---
+[INFO] Copying artifact [war:org.basemda:basemda-webservice:0.1-SNASPHOT] to [basemda-webservice-0.1-SNASPHOT.war]
+[INFO] Could not find manifest file: /home/flefevre/git/neomda/basemda/app/target/basemda-0.1-SNASPHOT/META-INF/MANIFEST.MF - Generating one
+[INFO] Building jar: /home/flefevre/git/neomda/basemda/app/target/basemda-0.1-SNASPHOT.ear
+[INFO] 
+[INFO] --- andromdapp-maven-plugin:3.4:deploy (default) @ basemda-app ---
+[INFO] 
+[INFO] --- maven-source-plugin:2.2:jar-no-fork (attach-sources) @ basemda-app ---
+[INFO] Building jar: /home/flefevre/git/neomda/basemda/app/target/basemda-0.1-SNASPHOT-sources.jar
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ basemda-app ---
+[INFO] Installing /home/flefevre/git/neomda/basemda/app/target/basemda-0.1-SNASPHOT.ear to /home/flefevre/.m2/repository/org/basemda/basemda-app/0.1-SNASPHOT/basemda-app-0.1-SNASPHOT.ear
+[INFO] Installing /home/flefevre/git/neomda/basemda/app/pom.xml to /home/flefevre/.m2/repository/org/basemda/basemda-app/0.1-SNASPHOT/basemda-app-0.1-SNASPHOT.pom
+[INFO] Installing /home/flefevre/git/neomda/basemda/app/target/basemda-0.1-SNASPHOT-sources.jar to /home/flefevre/.m2/repository/org/basemda/basemda-app/0.1-SNASPHOT/basemda-app-0.1-SNASPHOT-sources.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] BaseMda ............................................ SUCCESS [  2.765 s]
+[INFO] BaseMda MDA ........................................ SUCCESS [ 24.149 s]
+[INFO] BaseMda Common ..................................... SUCCESS [  2.343 s]
+[INFO] BaseMda Core Business Tier ......................... SUCCESS [  0.751 s]
+[INFO] BaseMda Web Services ............................... SUCCESS [  3.770 s]
+[INFO] BaseMda Application ................................ SUCCESS [  3.554 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 38.720 s
+[INFO] Finished at: 2016-02-24T12:53:22-08:00
+[INFO] Final Memory: 36M/86M
+[INFO] ------------------------------------------------------------------------
+[flefevre@localhost basemda]$ 
