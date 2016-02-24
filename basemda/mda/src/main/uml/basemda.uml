@@ -22,7 +22,9 @@
     <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_fuFT4HRoEd2XYY41Ptd_Hw" name="Timestamp"/>
     <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_9zVW4HBDEdyzBeV1cEAmlQ" name="void"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:Package" xmi:id="_o2BJwNs-EeWLCa3NaSViKg" name="org"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_o2BJwNs-EeWLCa3NaSViKg" name="org">
+    <packagedElement xmi:type="uml:Class" xmi:id="_U9viUNs_EeWLCa3NaSViKg" name="Class1"/>
+  </packagedElement>
   <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_75DU0yXvEdyeC6-v07fheA">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_75DU1CXvEdyeC6-v07fheA" source="http://www.eclipse.org/uml2/2.0.0/UML">
       <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/uml2/5.0.0/UML/Profile/Standard#/"/>
