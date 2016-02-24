@@ -1,2 +1,0 @@
-# neomda
-testing andromda
